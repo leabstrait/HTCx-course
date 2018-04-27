@@ -1,0 +1,1 @@
+fbq.registerPlugin('config:1601661033380488', {__fbEventsPlugin: 1,plugin: function(f, i){i.configLoaded('1601661033380488');}});

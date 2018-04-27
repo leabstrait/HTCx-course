@@ -1,0 +1,144 @@
+==== PART I ====
+
+1a-BSL
+=======================
+
+    Be able to write expressions that operate on primitive data including numbers, strings, images and booleans.
+    Be able to write constant and function definitions.
+    Be able to write out the step-by-step evaluation of simple expressions including function calls.
+    Be able to use the stepper to automatically step through the evaluation of an expression.
+    Be able to use the Dr Racket help desk to discover new primitives.
+
+1b-HtDF
+=======================
+
+    Be able to use the How to Design Functions (HtDF) recipe to design functions that operate on primitive data.
+    Be able to read a complete function design and identify its different elements.
+    Be able to evaluate the different elements for clarity, simplicity and consistency with each other.
+    Be able to evaluate the entire design for how well it solves the given problem.
+
+2-HtDD
+=======================
+
+    Be able to use the How to Design Data Definitions (HtDD) recipe to design data definitions for atomic data.
+    Be able to identify problem domain information that should be represented as simple atomic data, intervals, enumerations, itemizations and mixed data itemizations.
+    Be able to use the Data Driven Templates recipe to generate templates for functions operating on atomic data.
+    Be able to use the How to Design Functions (HtDF) recipe to design functions operating on atomic data.
+
+3a-HtDW
+=======================
+
+    Be able to explain the inherent structure of interactive graphical programs.
+    Be able to use the How to Design Worlds (HtDW) recipe to design interactive programs with atomic world state.
+    Be able to read and write big-bang expressions.
+
+3b-Compound Data
+=======================
+
+    Be able to identify domain information that should be represented as compound data.
+    Be able to read and write define-struct definitions.
+    Be able to design functions that consume and/or produce compound data.
+    Be able to design world programs that use compound world state.
+
+4a-Self Reference
+=======================
+
+    Be able to use list mechanisms to construct and destruct lists.
+    Be able to identify problem domain information of arbitrary size that should be represented using lists and lists of structures.
+    Be able to use the HtDD, HtDF and Data Driven Templates recipes with such data.
+    Be able to explain what makes a self-referential data definition well formed and identify whether a particular self-referential data definition is well-formed.
+    Be able to design functions that consume and produce lists and lists of structures.
+    Be able to predict and identify the correspondence between self-references in a data definition and natural recursions in functions that operate on the data.
+
+4b-Reference
+=======================
+
+    Be able to predict and identify the correspondence between references in a data definition and helper function calls in functions that operate on the data.
+
+5a-Naturals
+=======================
+
+    Be able to design functions that operate on natural numbers.
+    Be able to design a simple alternative representation for natural numbers.
+
+5b-Helpers
+=======================
+
+    Be able to design functions that use helper functions for each of the following reasons:
+
+        at references to other non-primitive data definitions (this will be in the template)
+        to form a function composition
+        to handle a knowledge domain shift
+        to operate on arbitrary sized data
+
+6-Binary Search Trees
+=======================
+
+    Be able to reason informally about the time required to search data.
+    Be able to identify problem domain information that should be represented using binary search trees.
+    Be able to check whether a given tree conforms to the binary search tree invariants.
+    Be able to use the design recipes to design with binary search trees.
+
+
+
+==== PART II ====
+
+7-Mutual Reference
+=======================
+
+    Be able to identify problem domain information of arbitrary size that should be represented using arbitrary arity trees.
+    Be able to use the design recipes to design with arbitrary arity trees.
+    Be able to use the design recipes with mutually-referential data.
+    Be able to predict and identify the correspondence between external-, self- and mutual-reference in a data definition and calls, recursion and mutual-recursion in functions that operate on the data.
+
+8a-Two One-Of Types
+=======================
+
+    Be able to produce the cross-product of type templates table for a function operating on two values with one-of types.
+    Be able to use the table to generate examples and a template.
+    Be able to use the table to simplify the function when there are equal answers in some cells.
+
+8b-Local
+=======================
+
+    Be able to write well-formed local expressions.
+    Be able to diagram lexical scoping on top of expressions using local.
+    Be able to hand-evaluate local expressions.
+    Be able to use local to encapsulate function definitions.
+    Be able to use local to avoid redundant computation.
+
+9-Abstraction
+=======================
+
+    Be able to identify 2 or more functions that are candidates for abstraction.
+    Be able to design an abstract function starting with 2 or more highly repetitive functions (or expressions).
+    Be able to design an abstract fold function from a template.
+    Be able to write signatures for abstract functions.
+    Be able to write signatures that use type parameters.
+    Be able to identify a function which would benefit from using a built-in abstract function
+    Be able to use built-in abstract functions
+
+10a-Generative Recursion
+=======================
+    Be able to identify whether a recursive function (or a set of mutually recursive functions) uses structural or generative recursion.
+    Be able to formulate a termination argument for a recursive function (or a set of mutually recursive functions).
+    Be able to design functions that use generative recursion (algorithms).
+
+10b-Search
+=======================
+    Be able to identify whether a function should be designed using domain knowledge, structural recursion, built-in abstract list functions or generative recursion.
+    Be able to design a backtracking generative search.
+
+11-Accumulators
+=======================
+    Be able to identify when a function design requires the use of accumulator.
+    Be able to work with the accumulator design recipe to design such functions.
+    Understand and be able to explain the concepts of tail position, tail call and tail recursion.
+
+12-Graphs
+=======================
+    Be able to identify when domain information naturally forms a graph.
+    Be able to write data definitions for graphs.
+    Be able to construct cyclic data.
+    Be able to design templates that operate on graphs, using accumulators to prevent chasing infinite cycles in the graph.
+    Be able to design functions that operate on graphs.

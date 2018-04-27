@@ -1,0 +1,3490 @@
+
+var LECTURES_PROBLEMS =
+    { 'lectures':	  
+      [
+          // lecture object data definition is in displayTable.js
+	  
+          // BSL
+          {
+              'module'      :  'BSL',
+	      'label'       :  'intro',
+              'title'       : 'Introduction',
+              'description' : '<p>Motivation and goals of the \
+                                  course. How and why this course differs from other \
+                                  introductory programming courses.</p>',
+              'length'      : '5:33',
+              'starterFile' : '',
+              'notes'       : 'bsl-introduction.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 111
+          },
+
+          {
+              'module'      :  'BSL',
+	      'label'       :  'how2study',
+              'title'       : 'How to Study',
+              'description' : '<p>A introductory navigation through the course website, and some advice on studying.</p>',
+              'length'      : '6:52',
+              'starterFile' : '',
+              'notes'       : 'bsl-introduction.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 225
+          },
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'exprs',
+              'title'       : 'Expressions',
+              'description' : '<p>DrRacket, numbers, forming expressions that operate on numbers.</p> \
+                               <p><i>NOTE: Before starting this lecture \
+                                  <a href="http://racket-lang.org/download">download the latest version of DrRacket</a>, \
+                                  install the download on your computer and then start the <strong>DrRacket</strong> application.</p>',
+              'length'      : '8:30',
+              'starterFile' : 'pythag-starter.rkt',
+              'notes'       : 'bsl-expressions-to-constant-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 41
+          },
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'eval',
+              'title'       : 'Evaluation',
+              'description' : '<p>Rules for evaluating primitive call expressions.</p>',
+              'length'      : '6:56',
+              'starterFile' : '',
+              'notes'       : 'bsl-expressions-to-constant-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 43
+
+          },        
+
+          {
+              'module'      : 'BSL',
+	      'label'       : 'strs-imgs',
+              'title'       : 'Strings and Images',
+              'description' : '<p>String and image values. Primitives that operate on strings and images.</p>',      
+              'length'      : '11:28',
+              'starterFile' : '',
+              'notes'       : 'bsl-expressions-to-constant-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 45
+
+
+          },        
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'const-def',
+              'title'       : 'Constant Definitions',
+              'description' : '<p>Constant definitions, forming constant definitions and rules for evaluating constants.</p>',
+              'length'      : '6:15',
+              'starterFile' : '',
+              'notes'       : 'bsl-expressions-to-constant-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 47
+          },
+
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'pacing',
+              'title'       : 'Pacing and Doing Well in the Course',
+              'description' : '<p>On the pacing of the course, and reminders of how to do well.</p>',
+              'length'      : '1:15',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : 221
+          },
+
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'fun-def',
+              'title'       : 'Function Definitions',
+              'description' : '<p>Function definitions, forming function definitions and rules for evaluating function calls.</p>',
+              'length'      : '11:01',
+              'starterFile' : 'function-definitions-starter.rkt',
+              'notes'       : 'bsl-function-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 49
+          },                
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'bool-if-exprs',
+              'title'       : 'Booleans and if Expressions',
+              'description' : '<p>Boolean Values. Forming if expressions and rules for evaluating if expressions.</p> \
+                             \
+                             <p>This video is particularly long because it includes a \
+                             detailed step-by-step evaluation example. You may want to skim \
+                             that example and come back to it later.</p>',              
+              'length'      : '14:02',
+              'starterFile' : '',
+              'notes'       : 'bsl-booleans.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 51
+          },                
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'stepper',
+              'title'       : 'Using the Stepper',
+              'description' : '<p>Using the Dr. Racket stepper to walk through \
+                                      the evaluation of an expression one step at a time.</p>',
+              'length'      : '5:36',
+              'starterFile' : 'stepper-starter.rkt',
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : 79
+          },        
+
+
+          {
+              'module'      : 'BSL',
+	      'label'       :  'disc-prim',
+              'title'       : 'Discovering Primitives',
+              'description' : '<p>How to discover primitives beyond those covered in lecture.</p> \
+                                   <p><i>Watch this lecture some time this week or next, but after lecture 1d.</i></p>',
+              'length'      : '5:25',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 35
+          },
+
+
+          // HtDF
+
+          {
+              'module'      : 'HtDF',
+	      'label'       :  'full',
+              'title'       : 'Full Speed HtDF Recipe',
+              'description' : '<p>Now we get to the heart of the course - a first quick \
+                             demonstration of the How to Design Functions Recipe \
+                             (<a href="view?page=HtDFunctions">HtDF recipe</a>).</p>',          
+              'length'      : '8:47',
+              'starterFile' : 'double-starter.rkt',
+              'notes'       : 'htdf-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 37
+          },        
+
+          {
+              'module'      : 'HtDF',
+	      'label'       :  'slow',
+              'title'       : 'Slow Motion HtDF Recipe',
+              'description' : '<p>A slower presentation and discussion of the How to Design Functions Recipe \
+                             (<a href="view?page=HtDFunctions">HtDF recipe</a>).</p> \
+                             <p><i>NOTE: Be sure to watch the BSL - Using the Stepper lecture before you watch this one.</i></p>',           
+              'length'      : '11:22',
+              'starterFile' : 'double-starter.rkt',
+              'notes'       : 'htdf-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 39        
+          },
+
+          {       
+              'module'      : 'HtDF',
+	      'label'       :  '',
+              'title'       : '',
+              'description' : '<p>The next 4 video lectures are short examples of using the \
+                             the <a href="view?page=HtDFunctions">HtDF recipe</a>. \
+                             Each video is partly review of the HtDF recipe, but each video also elaborates \
+                             on how to use the recipe, including points on:</p> \
+                             <ul> \
+                                   <li>writing signatures and purpose statements</li> \
+                                   <li>how many tests a function should have</li> \
+                                   <li>what to do when tests fail</li> \
+                                   <li>what to do when your understanding of the purpose changes part way through the design</li> \
+                             </ul> \
+                             <p> \
+                               We recommend that you work through the problems along with the \
+                               video. Get the starter file, work one step of the recipe, \
+                               watch that on video, then work the next step of the recipe, \
+                               watch that and so on. Remember, you can\'t learn program \
+                               design by watching -- you have to do it! \
+                             </p>',
+              'length'      : '',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : 0
+
+          },
+
+          {
+              'module'      : 'HtDF',
+	      'label'       :  'yell',
+              'title'       : 'Examples - yell!',
+              'description' : '<p>A detailed example of using the HtDF recipe to design a simple function operating on \
+                                 a string. This is a good chance for you to practice the material from the previous two lectures.</p>',
+              'length'      : '3:31',
+              'starterFile' : 'yell-starter.rkt',
+              'notes'       : 'htdf-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 27
+              
+          },
+
+          {
+              'module'      : 'HtDF',
+	      'label'       :  'area',
+              'title'       : 'Examples - area',
+              'description' : '<p>In this example of using the HtDF recipe, you can see \
+                                      what it\'s like to have an incorrect test as well a case \
+                                      of having to copy part of the template.</p>',
+              'length'      : '5:02',
+              'starterFile' : 'area-starter.rkt',
+              'notes'       : 'htdf-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 29
+              
+          },
+
+          {
+              'module'      : 'HtDF',
+	      'label'       :  'img-area',
+              'title'       : 'Examples - image-area',
+              'description' : '<p>Another HtDF example, including a discussion of when and why \
+                                    it makes sense to vary the order of the steps in the HtDF recipe.</p>',        
+              'length'      : '5:59',
+              'starterFile' : 'image-area-starter.rkt',
+              'notes'       : 'htdf-notes.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 33
+              
+          },
+
+          {
+              'module'      : 'HtDF',
+	      'label'       :  'tall',
+              'title'       : 'Examples - tall',
+              'description' : '<p>An HtDF example in which the problem statement is less specific \
+                                    about what is needed. We also talk more about the number of tests \
+                                    a function requires.</p>',
+              'length'      : '11:18',
+              'starterFile' : 'tall-starter.rkt',
+              'notes'       : 'htdf-notes.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 31
+          },
+
+	  {
+              'module'      : 'HtDF',
+	      'label'       :  'pg1',
+              'title'       : 'Peer Grading HtDF -- One Example',
+              'description' : '<p>A walk through of the grading rubric for the starts-with-n problem.</p>',
+              'length'      : '7:32',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : 241
+          },
+          {
+              'module'      : 'HtDF',
+	      'label'       :  'pg2',
+              'title'       : 'Peer Grading HtDF -- More Examples',
+              'description' : '<p>A walk through of three additional examples with the grading rubric.</p>',
+              'length'      : '8:03',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 243
+          },
+
+
+          // HtDD
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'cond-exprs',
+              'title'       : 'cond Expressions',
+              'description' : '<p><tt>cond</tt> expressions simplify writing conditional \
+                                      expressions with more than 2 cases. A detailed look at the \
+                                      evaluation of <tt>cond</tt> expressions provides insight \
+                                      into the nature of the evaluation rules used by BSL.</p>',
+              'length'      : '11:12',
+              'starterFile' : 'cond-starter.rkt',
+              'notes'       : 'htdd-cond.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 53
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'intro',
+              'title'       : 'Data Definitions',
+              'description' : '<p>Data definitions explain how information is represented \
+                                   as data. This is a crucial part of program design and has a significant \
+                                   effect on the design of every function that operates on that data. </p>',
+              'length'      : '8:00',
+              'starterFile' : 'next-color-starter.rkt',
+              'notes'       : 'htdd-intro.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 57
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'atomic',
+              'title'       : 'Atomic Non-Distinct',
+              'description' : '<p>A first example of using the How to Design Data \
+                                     (<a href="view?page=HtDData">HtDD recipe</a>) and \
+                                      <a href="view?page=DataDrivenTemplates">Data Driven Templates</a> recipes.</p>',          
+              'length'      : '8:05',
+              'starterFile' : 'city-name-starter.rkt',
+              'notes'       : 'htdd-first-data-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 59
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'atomic-htdf',
+              'title'       : 'HtDF With Non-Primitive Data',
+              'description' : '<p>How to use the HtDF recipe with non-primitive data (data defined by a data definition).</p>',             
+              'length'      : '7:50',
+              'starterFile' : 'best-starter.rkt',
+              'notes'       : 'htdd-htdf-dd.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 61
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'orthog',
+              'title'       : 'HtDF X Structure of Data Orthogonality',
+              'description' : '<p>The HtDF and HtDD recipes are largely orthogonal. This means that HtDF works nearly the same \
+                                      way for all forms of data. This has a significant impact on how quickly we can expand our \
+                                      design abilities since once we learn a new form of data we already mostly know how to design \
+                                      functions that operate on it.</p>',
+              'length'      : '5:32',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : 63
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'interv',
+              'title'       : 'Interval',
+              'description' : '<p>Interval data definitions are used for information that is numbers within a certain range.</p>',             
+              'length'      : '7:14',
+              'starterFile' : 'seat-num-starter.rkt',
+              'notes'       : 'htdd-first-data-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 65
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'enum',
+              'title'       : 'Enumeration',
+              'description' : '<p>Enumeration data definitions are used when the information to be represented consists of two \
+                                      or more distinct values.</p>',             
+              'length'      : '9:40',
+              'starterFile' : 'letter-grade-starter.rkt',
+              'notes'       : 'htdd-first-data-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 67
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'itemz',
+              'title'       : 'Itemization',
+              'description' : '<p>Itemizations are used for information comprised of 2 or more categories, at least one of \
+                                      which is not a distinct value.</p>',
+              'length'      : '11:40',
+              'starterFile' : 'countdown-starter.rkt',
+              'notes'       : 'htdd-first-data-defs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 69
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'interv-htdf',
+              'title'       : 'HtDF with Interval',
+              'description' : '<p>A quick presentation of designing a function that consumes an interval type.</p>',             
+              'length'      : '4:57',
+              'starterFile' : 'aisle-starter.rkt',
+              'notes'       : 'htdd-htdf-dd.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 71
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'enum-htdf',
+              'title'       : 'HtDF with Enumeration',
+              'description' : '<p>A quick presentation of designing a function that consumes an enumeration type.</p>',             
+              'length'      : '6:03',
+              'starterFile' : 'bump-up-starter.rkt',
+              'notes'       : 'htdd-htdf-enum.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 73
+          },
+
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'itemz-htdf',
+              'title'       : 'HtDF with Itemization',
+              'description' : '<p>A quick presentation of designing a function that consumes an itemization type.</p>',             
+              'length'      : '10:41',
+              'starterFile' : 'countdown-to-display-starter.rkt',
+              'notes'       : 'htdd-htdf-dd.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 75
+          },
+          {
+              'module'      : 'HtDD',
+	      'label'       :  'info-flow',
+              'title'       : 'Structure of Information Flows Through',
+              'description' : '<p>A summary of the week, highlighting how identification of the form of information to be represented \
+                                      flows through the rest of the program.</p>',             
+              'length'      : '3:54',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : 77
+          },
+
+          // HtDW
+          {
+              'module'      : 'HtDW',
+	      'label'       :  'intro',
+              'title'       : 'Interactive Programs',
+              'description' : '<p>This week we are going to learn how to design simple interactive programs: \
+                                      animations, games, desktop applications. The graphics will be pretty plain \
+                                      but the core structure of these programs will be like that of more sophisticated \
+                                      versions of these programs.</p>',
+              'length'      : '2:18',
+              'starterFile' : '',
+              'notes'       : 'htdw-intro.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 145
+          },
+          {
+              'module'      : 'HtDW',
+	      'label'       :  'big-bang',
+              'title'       : 'The big-bang Mechanism',
+              'description' : '<p>The inherent behind-the-scenes functionality of interactive programs, \
+                                      and the <tt>big-bang</tt> primitive.</p>',
+              'length'      : '11:53',
+              'starterFile' : '',
+              'notes'       : 'htdw-intro.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 83
+          },
+          {
+              'module'      : 'HtDW',
+	      'label'       :  'domain-analy',
+              'title'       : 'Domain Analysis',
+              'description' : '<p>The first phase of the How to Design Worlds (HtDW) recipe is to analyze the problem \
+                                      to identify constant information, changing information and required <tt>big-bang</tt> \
+                                      options.</p>',
+              'length'      : '7:52',
+              'starterFile' : 'cat-starter.rkt',
+              'notes'       : 'htdw-intro.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 85
+          },
+          {
+              'module'      : 'HtDW',
+	      'label'       :  'main',
+              'title'       : 'Program through main Function',
+              'description' : '<p>The second phase of the How to Design Worlds (HtDW) involves going from the analysis \
+                                      to the overall structure of the main program. This is our first example of a larger \
+                                      program, and we use the wish-list technique to manage the overall design work.</p>',
+              'length'      : '14:34',
+              'starterFile' : 'cat-starter.rkt',
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 87
+          },
+          {
+              'module'      : 'HtDW',
+	      'label'       :  'wish-list',
+              'title'       : 'Working through the Wish List',
+              'description' : '<p>Completing the world program involves systematically going through the wish list \
+                                      and completing the design of every \'wished-for\' function.</p>',
+              'length'      : '11:04',
+              'starterFile' : '',
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 89
+          },
+          {
+              'module'      : 'HtDW',
+	      'label'       :  'add-speed',
+              'title'       : 'Improving a World Program - Add SPEED',
+              'description' : '<p>Given an existing world program we can extend it with new behavior by using the \
+                                      analysis as a model of the program in order to plan the revision. \
+                                      Much of this video is really another example of using HtDF and HtDW.</p>',
+              'length'      : '6:25',
+              'starterFile' : 'cat-v1.rkt',
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : 91
+          },
+          {
+              'module'      : 'HtDW',
+	      'label'       :  'add-key',
+              'title'       : 'Improving a World Program - Add key handler',
+              'description' : '<p>We now extend the cat program to respond to keyboard events. \
+                                      Again much of this video is review. The key new material has \
+                                      to do with testing and templating functions that operate on large enumerations.</p>',
+              'length'      : '12:32',
+              'starterFile' : 'cat-v2.rkt',
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 93
+          },
+
+          // Compound
+          {
+              'module'      : 'Compound',
+	      'label'       :  'define-struct',
+              'title'       : 'define-struct',
+              'description' : '<p>A new mechanism from the BSL language allows us to build multi-part \
+                                      (or compound) values and later to desconstruct the compound values to \
+                                      get the individual values back.</p>',
+              'length'      : '5:27',
+              'starterFile' : '',
+              'notes'       : 'compound-defstruct.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 99
+          },
+
+          {
+              'module'      : 'Compound',
+	      'label'       :  'data-def',
+              'title'       : 'Compound Data Definitions',
+              'description' : '<p>How to form compound data definitions using the HtDD recipe.</p>',
+              'length'      : '6:19',
+              'starterFile' : 'compound-starter.rkt',
+              'notes'       : 'compound-defstruct.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 81
+          },
+          
+          {
+              'module'      : 'Compound',
+	      'label'       :  'htdw',
+              'title'       : 'HtDW With Compound Data',
+              'description' : '<p>This is a <strong>very long video</strong>. That is because it goes step-by-step through the development of a \
+                                       world program with compound world state. In that sense much of <strong>the video is like TA office hours</strong> - \
+                                       you can work through the problemm on your own consulting the video now and then to compare your \
+                                       solution to ours. \
+                                      Part of the video goes into more detail on how to handle the geometry of keeping moving elements \
+                                      inside the screen, which is an area that students often ask about. \
+                                      Another part introduces helper functions.</p>',
+              'length'      : '29:35',
+              'starterFile' : 'cowabunga-starter.rkt', 
+              'notes'       : 'compound-htdw.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 95
+          },
+
+          // Self-Ref
+          
+          {
+              'module'      : 'Self-Ref',
+	      'label'       :  'intro',
+              'title'       : 'Introduction to Arbitrary Sized Data',
+              'description' : '<p>This week we focus on how programs can represent arbitrary amounts \
+                                   of information. This includes things like all the students in a course, \
+                                   all your friends on Facebook, or (sadly) all your favorite hockey teams.</p>',
+              'length'      : '1:22',
+              'starterFile' : '', 
+              'notes'       : 'self-ref-intro.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '103'
+          },
+          
+          {
+              'module'      : 'Self-Ref',
+	      'label'       :  'list-mech',
+              'title'       : 'List Mechanisms',
+              'description' : '<p>Primitive data and operations for representing lists.</p>',
+              'length'      : '8:40',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 101
+          },
+          
+          {
+              'module'      : 'Self-Ref',
+	      'label'       :  'list-dd',
+              'title'       : 'List Data Definition',
+              'description' : '<p>A data definition for representing lists of Quidditch teams. \
+                                      In this first list data definition we make a few lucky (and unexplained \
+                                      decisions) and wind up with a data definition that seems to do the job. \
+                                      The mysteries are all resolved in 5e.</p>',
+              'length'      : '11:33',
+              'starterFile' : 'quidditch-starter.rkt', 
+              'notes'       : 'self-ref-first-lists.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 105
+          },
+          
+          {
+              'module'      : 'Self-Ref',
+	      'label'       :  'list-fun',
+              'title'       : 'Function Operating on List',
+              'description' : '<p>A function for operating on a list. \
+                                      In this first function that operates on a list we use the data definition \
+                                      from 5c and our function works out splendidly.<\p> \
+                                      The mysteries are all resolved in 5e.',
+              'length'      : '7:36',
+              'starterFile' : '', 
+              'notes'       : 'self-ref-first-lists.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 107
+          },
+          
+          {
+              'module'      : 'Self-Ref',
+	      'label'       :  'rev-recp-list',
+              'title'       : 'Revising the Recipes for Lists',
+              'description' : '<p>The luck of the last two videos is explained. The key ideas of well-formed \
+                                      self-referential data definitions, natural recursion and trusting the \
+                                      natural recursion are the key to operating on arbitrary-sized data. \
+                                      We update the recipes to include them.</p>',
+              'length'      : '12:15',
+              'starterFile' : 'quidditch-recap-starter.rkt', 
+              'notes'       : 'self-ref-list-recipes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 109
+          },
+          
+          {
+              'module'      : 'Self-Ref',
+	      'label'       :  'des-w-list',
+              'title'       : 'Designing with Lists',
+              'description' : '<p>Examples of using the revised recipes beginning to end.</p>',
+              'length'      : '13:04',
+              'starterFile' : 'designing-with-lists-1-starter.rkt', 
+              'notes'       : 'self-ref-more-list-fns.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 113
+          },
+          
+          {
+              'module'      : 'Self-Ref',
+	      'label'       :  'pos-list-templ',
+              'title'       : 'Positions in List Templates',
+              'description' : '<p>Looking over all the list functions designed so far we see that \
+                                      each position in the list template plays a specific role.</p>',
+              'length'      : '7:15',
+              'starterFile' : '', 
+              'notes'       : 'self-ref-more-list-fns.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 115
+          },
+
+          // Ref
+          {
+              'module'      : 'Ref',
+	      'label'       :  'part-1',
+              'title'       : 'The Reference Rule Part 1',
+              'description' : '<p>In the next three videos we take a small but very significant \
+                                      step in terms of the complexity of the information we can \
+                                      represent as data. We will start to have designs with more than \
+                                      one data definition each for representing one part of the \
+                                      overall information.  As we have seen before this difference will \
+                                      arise in the information, be reflected in the type comments,  \
+                                      be carried into the templates by the template rules and show  \
+                                      up in the structure of the final function definitions and tests.</p>',
+              'length'      : '10:42',
+              'starterFile' : 'tuition-graph-starter.rkt', 
+              'notes'       : 'ref-other-example.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 117
+          },
+          
+          {
+              'module'      : 'Ref',
+	      'label'       :  'part-2',
+              'title'       : 'The Reference Rule Part 2',
+              'description' : '<p>This video focuses almost entirely on the examples for the <tt>chart</tt>  \
+                                      function. This provides a good example of the incremental process of working out \
+                                      more complex image producing functions and also reinforces why we do the \
+                                      recipe steps in the order we do. Even though this video does not address the \
+                                      reference rule directly it is absolutely essential that you watch it before \
+                                      part 3.</p>',
+              'length'      : '14:47',
+              'starterFile' : 'tuition-graph-v3.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 119
+          },
+          
+          {
+              'module'      : 'Ref',
+	      'label'       :  'part-3',
+              'title'       : 'The Reference Rule Part 3',
+              'description' : '<p>The final reference rule video completes the design of the <tt>chart</tt> \
+                                      function. When we encounter the natural helper in the template for \
+                                      <tt>ListOfSchool</tt> we make a wish for the problem to get simpler - \
+                                      and it does.</p>',
+              'length'      : '11:33',
+              'starterFile' : 'tuition-graph-v3.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : 125
+          },
+          
+          // Naturals
+          {
+              'module'      : 'Naturals',
+	      'label'       :  'nat',
+              'title'       : 'Natural Numbers',
+              'description' : '<p>There are arbitrarily many natural numbers, so we can use a well-formed \
+                                      self-referential data definition to describe the type Natural. Doing \
+                                      so makes it easy to design functions that count down from a given \
+                                      natural number to 0.</p>',
+              'length'      : '12:55',
+              'starterFile' : 'naturals-starter.rkt', 
+              'notes'       : 'naturals.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : 121
+          },
+          
+          {
+              'module'      : 'Naturals',
+	      'label'       :  'parlor',
+              'title'       : 'A Parlor Trick',
+              'description' : '<p>If DrRacket didn\'t have naturals numbers as a primitive type what would \
+                                      we do? Easy, use HtDD and HtDF to define them.</p>',
+              'length'      : '16:18',
+              'starterFile' : 'new-numerals-starter.rkt', 
+              'notes'       : 'a-parlor-trick.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : 123
+          },
+
+          // Helpers
+          
+          {
+              'module'      : 'Helpers',
+	      'label'       :  'intro',
+              'title'       : 'Introduction',
+              'description' : '<p>Big design problems need to be broken into smaller pieces in order to be tractable. \
+                                      In this week we learn several new rules for breaking down function and data designs. \
+                                      We also see more examples of the form of information flows through to the data and \
+                                      the functions that operate on that data. </p>',
+              'length'      : '1:00',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '167'
+          },
+          
+          {
+              'module'      : 'Helpers',
+	      'label'       :  'fun-comps',
+              'title'       : 'Function Composition',
+              'description' : '<p>A function should be split into a function composition when it performs two or more \
+                                      distinct and complete operations on the consumed data.</p>',
+              'length'      : '13:45',
+              'starterFile' : 'arrange-images-starter.rkt', 
+              'notes'       : 'helpers-rules.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '131'
+          },
+          
+          {
+              'module'      : 'Helpers',
+	      'label'       :  'layout-img',
+              'title'       : 'Laying Out a List of Images',
+              'description' : '<p>This function design requires no new techniques. It needs to be done as part of\
+                                      the larger problem, and it serves as practice and review.</p>',
+              'length'      : '4:05',
+              'starterFile' : 'arrange-images-v2.rkt', 
+              'notes'       : 'helpers-rules.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '133'
+          },
+          
+          {
+              'module'      : 'Helpers',
+	      'label'       :  'op-list',
+              'title'       : 'Operating on a List',
+              'description' : '<p>When an expression must operate on a list -- and go arbitrarily far into that list -- then \
+                                      it must call a helper function to do that.</p>',
+              'length'      : '10:55',
+              'starterFile' : 'arrange-images-v3.rkt', 
+              'notes'       : 'helpers-rules.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '135'
+          },
+          
+          {
+              'module'      : 'Helpers',
+	      'label'       :  'know-shift',
+              'title'       : 'Domain Knowledge Shift',
+              'description' : '<p>When the body of a function must shift to a new knowledge domain it should call a \
+                                      helper function to do the work in the new domain.</p>',
+              'length'      : '14:48',
+              'starterFile' : 'arrange-images-v4.rkt', 
+              'notes'       : 'helpers-rules.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '137'
+          },
+          
+          {
+              'module'      : 'Helpers',
+	      'label'       :  'wrap-up',
+              'title'       : 'Wrap Up',
+              'description' : '<p>The wish list process organizes the process of working through a design process, \
+                                      consisting of potentially many helper functions. The moment at which the last helper is \
+                                      finished, and \"all tests pass\" is very satisfying.</p>',
+              'length'      : '7:19',
+              'starterFile' : 'arrange-images-v5.rkt', 
+              'notes'       : 'helpers-rules.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '139'
+          },
+          
+
+          //BSTs
+          {
+              'module'      : 'BSTs',
+	      'label'       : 'list-abrv',
+              'title'       : 'List Abbreviations',
+              'description' : '<p>A new notation for lists is less cumbersome, but that comes at the cost of making the\
+                                      recursive structure less apparent.</p>',
+              'length'      : '5:45',
+              'starterFile' : '', 
+              'notes'       : 'list-abbrevs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '141'
+          },
+          {
+              'module'      : 'BSTs',
+	      'label'       : 'loa',
+              'title'       : 'List of Account',
+              'description' : '<p>We consider the problem of looking up member names in a bunch of accounts with account numbers names; first, by representing the data as a list.</p>',
+              'length'      : '2:44', 
+              'starterFile' : 'lookup-in-list-starter.rkt', 
+              'notes'       : 'bst-notes.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '227'
+          },
+
+          {
+              'module'      : 'BSTs',
+	      'label'       : 'bsts',
+              'title'       : 'Binary Search Trees',
+              'description' : '<p>An introduction to an alternate representation of the account data, this time in a Binary Search Trees</p>',
+              'length'      : '7:56', 
+              'starterFile' : '', 
+              'notes'       : 'bst-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '229'
+          },
+          {
+              'module'      : 'BSTs',
+	      'label'       : 'dd',
+              'title'       : 'BST Data Definition',
+              'description' : '<p>A data definition for Binary Search Trees.</p>',
+              'length'      : '11:49', 
+              'starterFile' : 'bst-dd-starter.rkt', 
+              'notes'       : 'bst-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '231'
+          },
+
+          {
+              'module'      : 'BSTs',
+	      'label'       : 'lookup',
+              'title'       : 'Lookup in BST',
+              'description' : '<p>Creating a function that searches for the entry with a given key in a BST.</p>',
+              'length'      : '14:53', 
+              'starterFile' : 'lookup-in-bst-starter.rkt', 
+              'notes'       : 'bst-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '233'
+          },
+
+          {
+              'module'      : 'BSTs',
+	      'label'       : 'render',
+              'title'       : 'Render BST',
+              'description' : '<p>In this video, we develop a function to render BSTs.</p>',
+              'length'      : '17:19',
+              'starterFile' : 'render-bst-starter.rkt', 
+              'notes'       : 'bst-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '235'
+          },
+
+
+
+
+          //MUTUAl-REF
+          {
+              'module'      : 'Mutual-Ref',
+	      'label'       :  'intro',
+              'title'       : 'Mutually Recursive Data',
+              'description' : '<p>Mutually self-referential types can represent a tree of arbitrary depth and width.</p>',
+              'length'      : '9:14',
+              'starterFile' : 'fs-starter.rkt', 
+              'notes'       : 'mutual-ref-arb-trees.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '143'
+          },
+          
+          {
+              'module'      : 'Mutual-Ref',
+	      'label'       :  'templ',
+              'title'       : 'Templating Mutual Recursion',
+              'description' : '<p>The templates for mutual recursion fall out naturally from the type comments.</p>',
+              'length'      : '4:51',
+              'starterFile' : 'fs-starter.rkt', 
+              'notes'       : 'mutual-ref-arb-trees.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '151'
+          },
+          
+          {
+              'module'      : 'Mutual-Ref',
+	      'label'       :  'fun-part-1',
+              'title'       : 'Functions on Mutually Recursive Data - Part 1',
+              'description' : '<p>Mutually self-referential types lead to mutually recursive functions.</p>',
+              'length'      : '12:43',
+              'starterFile' : 'fs-v1.rkt', 
+              'notes'       : 'mutual-ref-arb-trees.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '153'
+          },
+          
+          {
+              'module'      : 'Mutual-Ref',
+	      'label'       :  'fun-part-2',
+              'title'       : 'Functions on Mutually Recursive Data - Part 2',
+              'description' : '<p>Additional examples of mutually recursive function design.</p>',
+              'length'      : '12:02',
+              'starterFile' : 'fs-v2.rkt', 
+              'notes'       : 'mutual-ref-arb-trees.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '155'
+          },
+          
+          {
+              'module'      : 'Mutual-Ref',
+	      'label'       :  'back-srch',
+              'title'       : 'Backtracking Search',
+              'description' : '<p>Searching an arbitrary-arity tree for the first element to have a given property \
+                                      leads to a backtracking traversal of the tree.</p>',
+              'length'      : '19:05',
+              'starterFile' : 'fs-v3.rkt', 
+              'notes'       : 'mutual-ref-arb-trees.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '165'
+          },
+
+
+          // 2 One-Of
+
+          {
+              'module'      : '2-One-Of',
+	      'label'       : 'table',
+              'title'       : 'Cross Product Table',
+              'description' : '<p>Building a cross product table for a function consuming two one-of types.</p>',
+              'length'      : '11:10', 
+              'starterFile' : 'prefix-equal-starter.rkt', 
+              'notes'       : '2-one-of-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '237'
+          },
+
+          {
+              'module'      : '2-One-Of',
+	      'label'       : 'code',
+              'title'       : 'Cross Product Code',
+              'description' : '<p>Coding a function consuming two one-of types after having created the cross-product table.</p>',
+              'length'      : '15:18',
+              'starterFile' : '', 
+              'notes'       : '2-one-of-notes.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '239'
+          },
+
+          // Local
+          
+          {
+              'module'      : 'Local',
+	      'label'       :  'intro',
+              'title'       : 'Introduction',
+              'description' : '<p>The Intermediate Student Language (ISL) provides <tt>local</tt> expressions, \
+                                      which make it possible to have definitions visible only within the local \
+                                      expression.</p>',
+              'length'      : '0:44',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '193'
+          },
+
+	  {
+              'module'      : 'Local',
+	      'label'       :  'form-intu',
+              'title'       : 'Forming and Intuition',
+              'description' : '<p>Examples of local expressions and rules for writing well-formed local expressions.</p>',
+              'length'      : '4:56',
+              'starterFile' : '', 
+              'notes'       : 'local-basics.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '169'
+          },
+
+	  {
+              'module'      : 'Local',
+	      'label'       :  'lex-scope',
+              'title'       : 'Lexical Scoping',
+              'description' : '<p>The concept of lexical scoping allows us to answer questions about what definition any \
+                                      reference to a name refers to.</p>',
+              'length'      : '7:45',
+              'starterFile' : '', 
+              'notes'       : 'local-basics.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '171'
+          },
+
+	  {
+              'module'      : 'Local',
+	      'label'       :  'eval',
+              'title'       : 'Evaluation Rules',
+              'description' : '<p>Evaluation of local expressions involves simultaneous renaming and lifting \
+                                      of local definitions.</p>',
+              'length'      : '8:00',
+              'starterFile' : '', 
+              'notes'       : 'local-basics.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '173'
+          },
+
+	  {
+              'module'      : 'Local',
+	      'label'       :  'encap',
+              'title'       : 'Encapsulation',
+              'description' : '<p>Lexical scoping is the foundation of encapsulation, a crucial technique for \
+                                      managing complexity of large programs.</p>',
+              'length'      : '18:21',
+              'starterFile' : 'fs-v4.rkt', 
+              'notes'       : 'local-encap.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '175'
+          },
+
+	  {
+              'module'      : 'Local',
+	      'label'       :  'avoid-recomp',
+              'title'       : 'Avoiding Recomputation',
+              'description' : '<p>Local expressions can be used to avoid recomputing results, and in recursive \
+                                      programs this can have significant (even exponential) effects on program performance.</p>',
+              'length'      : '10:48',
+              'starterFile' : 'fs-v6.rkt', 
+              'notes'       : 'local-recomp.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '177'
+          },
+
+          //Abstraction
+	  {
+              'module'      : 'Abstraction',
+	      'label'       :  'intro',
+              'title'       : 'Introduction',
+              'description' : '<p>A new technique for managing complexity is to reduce redundancy in programs using abstraction.</p>',
+              'length'      : '1:10',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '191'
+          },
+
+	  {
+              'module'      : 'Abstraction',
+	      'label'       :  'from-ex-1',
+              'title'       : 'From Examples 1',
+              'description' : '<p>The simplest way to design abstract functions is to start with two or more examples of highly repetitive code. In designing an abstract function this way the first step is to produce the working function definition.</p>',
+              'length'      : '11:16', //!!!
+              'starterFile' : 'parameterization-starter.rkt', 
+              'notes'       : 'abstraction-from-ex.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '179'
+          },
+
+	  {
+              'module'      : 'Abstraction',
+	      'label'       :  'from-ex-2',
+              'title'       : 'From Examples 2',
+              'description' : '<p>After the working function definition, we produce the check-expects and the purpose.</p>',
+              'length'      : '10:39',
+              'starterFile' : 'parameterization-v2.rkt', 
+              'notes'       : 'abstraction-from-ex.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '181'
+          },
+
+	  {
+              'module'      : 'Abstraction',
+	      'label'       :  'from-ex-3',
+              'title'       : 'From Examples 3',
+              'description' : '<p>The final step of designing an abstract function is to write the signature. Doing this requires three new elements of signature and type notation.</p>',
+              'length'      : '17:26',
+              'starterFile' : 'parameterization-v3.rkt', 
+              'notes'       : 'abstraction-sigs.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '183'
+          },
+
+	  {
+              'module'      : 'Abstraction',
+	      'label'       :  'built-in',
+              'title'       : 'Using Built In Abstract Functions',
+              'description' : '<p>List abstract functions are so useful that they are built into ISL. Using them requires identifying situations when they would be useful.</p>',
+              'length'      : '19:15',
+              'starterFile' : 'using-built-ins-starter.rkt', 
+              'notes'       : 'abstraction-using-built-ins.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '185'
+          },
+
+	  {
+              'module'      : 'Abstraction',
+	      'label'       :  'closures',
+              'title'       : 'Closures',
+              'description' : '<p>When the function passed to an abstract function requires access to a parameter of the enclosing function it must be locally defined.</p>',
+              'length'      : '12:21',
+              'starterFile' : 'closures-starter.rkt', 
+              'notes'       : 'abstraction-closures.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '187'
+          },
+
+	  {
+              'module'      : 'Abstraction',
+	      'label'       :  'fold',
+              'title'       : 'Fold Functions',
+              'description' : '<p>Abstract functions can be produced directly from templates. This can be wonderfully useful, especially for types involving mutual reference.</p>',
+              'length'      : '21:17',
+              'starterFile' : 'fold-functions-starter.rkt', 
+              'notes'       : 'abstraction-fold-functions.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '189'
+          },
+
+          // Genrec
+          
+          {
+              'module'      : 'Genrec',
+	      'label'       :  'intro',
+              'title'       : 'Introduction',
+              'description' : '<p>A new kind of recursion in which the data passed to the \
+                                     recursive call is generated, rather than being a part of \
+                                     the data passed to the current call.</p>',
+              'length'      : '1:44',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '211'
+          },
+
+	  {
+              'module'      : 'Genrec',
+	      'label'       :  'fract',
+              'title'       : 'Fractals',
+              'description' : '<p>Fractals are images that have a recursive structure. \
+                                      They provide a fun first example of generative recursion.</p>',
+              'length'      : '24:46',
+              'starterFile' : 'fractals-starter.rkt', 
+              'notes'       : 'genrec-fractals.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '195'
+          },
+
+	  {
+              'module'      : 'Genrec',
+	      'label'       :  'term-arg',
+              'title'       : 'Termination Arguments',
+              'description' : '<p>In generative recursion we no longer can count on well-formed \
+                                      type comments and the template rules to guarantee that the recursion \
+                                      will end. Instead we must formulate our own proof of that for each \
+                                      function that uses generative recursion.</p>',
+              'length'      : '11:42',
+              'starterFile' : 'termination-starter.rkt', 
+              'notes'       : 'genrec-how-to.rkt',
+              'inVideoQs'   : true,
+              'videoNum'    : '197'
+          },
+
+          //Search
+	  {
+              'module'      : 'Search',
+	      'label'       :  'intro',
+              'title'       : 'Introduction',
+              'description' : '<p>Over the next several lectures we will design a program based on \
+                                      the idea of problem solving by search. Our program will generate \
+                                      a space of all possible paths from an initial puzzle state and \
+                                      then search that space to find a solution.</p>',
+              'length'      : '1:51',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '217'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-term',
+              'title'       : 'Sudoku -- Terminology',
+              'description' : '<p>The basic terminology and rules of Sudoku.</p>',
+              'length'      : '3:03',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '199'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-dd',
+              'title'       : 'Sudoku -- Data Definitions and Primitives',
+              'description' : '<p>The data definitions in the starter file.</p>',
+              'length'      : '12:19',
+              'starterFile' : 'sudoku-starter.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : '201'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-intu',
+              'title'       : 'Sudoku -- The Search Intuition',
+              'description' : '<p>Overview of using search to solve a Sudoku puzzle.</p>',
+              'length'      : '6:09',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '203'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-templ-blend',
+              'title'       : 'Sudoku -- Template Blending',
+              'description' : '<p>The one new design technique required for the Sudoku solver is \
+                                      template blending, in which we combine several different kinds of \
+                                      templates all of which contribute to the backbone of a function \
+                                      (or functions).</p>',
+              'length'      : '13:56',
+              'starterFile' : 'sudoku-starter.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : '205'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-wish',
+              'title'       : 'Sudoku -- Making the Wish List',
+              'description' : '<p>Two wish list entries that accompany the solve function from the \
+                                      previous video.</p>',
+              'length'      : '4:12',
+              'starterFile' : 'sudoku-v1.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : '207'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-wish-come-true-1',
+              'title'       : 'Sudoku -- Making the Wish List Come True',
+              'description' : '<p>Working through the wish list.</p>',
+              'length'      : '14:00',
+              'starterFile' : 'sudoku-v2.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : true,
+              'videoNum'    : '209'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-wish-come-true-2',
+              'title'       : 'Sudoku -- Making the Wish List Come True 2',
+              'description' : '<p>Working through the wish list.</p>',
+              'length'      : '21:42',
+              'starterFile' : 'sudoku-v3.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '215'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sdk-wish-come-true-3',
+              'title'       : 'Sudoku -- Making the Wish List Come True 3',
+              'description' : '<p>The <tt>valid-board?</tt> function is perhaps the hardest single function in the course so far. \
+                                      Or maybe its just the longest, because following the recipes takes us to a solution relatively easily.</p>',
+              'length'      : '21:20',
+              'starterFile' : 'sudoku-v4.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '219'
+          },
+
+	  {
+              'module'      : 'Search',
+	      'label'       :  'sum',
+              'title'       : 'Summary of Course',
+              'description' : '<p>Stepping back from the details of the programs we have \
+                                      been designing we can see that a general design method that is \
+                                      useful in any language and for any sufficiently hard program.</p>',
+              'length'      : '12:29',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '213'
+          },
+
+	  // Accumulators
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'context-preserv-acc-1',
+              'title'       : 'Context Preserving Accumulators - Part 1',
+              'description' : '<p>Following a structural recursion template to walk through arbitrary sized data means we always know where we are, but never know where we have been. This video sets up a problem we do not yet know how to solve, a function that does need to know where it has been.</p>',
+              'length'      : '6:30',
+              'starterFile' : 'skip1-starter.rkt', 
+              'notes'       : 'intro-rsf-accs.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '245'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'context-preserv-acc-2',
+              'title'       : 'Context Preserving Accumulators - Part 2',
+              'description' : '<p>An accumulator can be used to preserve information about where a recursive function has been.</p>',
+              'length'      : '9:58',
+              'starterFile' : 'skip1-v1.rkt', 
+              'notes'       : 'intro-rsf-accs.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '247'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'skipn-1',
+              'title'       : 'Sample Problem: skipn - Part 1',
+              'description' : '<p>This video sets up a simple context preserving accumulator problem for you to practice with.</p>',
+              'length'      : '1:44',
+              'starterFile' : 'skipn-starter.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '253'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'skipn-2',
+              'title'       : 'Sample Problem: skipn - Part 2',
+              'description' : '<p>This video works through the solution to the problem from Part 1.</p>',
+              'length'      : '9:33',
+              'starterFile' : 'skipn-v1.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '255'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'tail-rec-1',
+              'title'       : 'Tail Recursion - Part 1',
+              'description' : '<p>This video introduces the concepts of tail position, call position and tail recursion.</p>',
+              'length'      : '8:32',
+              'starterFile' : 'sum-tr-starter.rkt', 
+              'notes'       : 'tail-recursion-worklist-acc.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '249'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'tail-rec-2',
+              'title'       : 'Tail Recursion - Part 2',
+              'description' : '<p>Building on part 1, this video shows how to use a result so far accumulator to make a function tail recursive.</p>',
+              'length'      : '9:48',
+              'starterFile' : 'sum-tr-starter.rkt', 
+              'notes'       : 'tail-recursion-worklist-acc.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '251'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'worklist-acc-1',
+              'title'       : 'Worklist Accumulators - Part 1',
+              'description' : '<p>Parts 1-7 of the worklist accumulators serve to review the accumulator module to date, introduce a second technique for making functions tail recursive, and in fact provide a good summary of the course to date. These videos are long, but they are worth working through in detail to get that practice and summary.</p><p>Part 1 sets up an HtDD problem that will support parts 2-7.</p>',
+              'length'      : '1:41',
+              'starterFile' : 'same-house-as-parent-v1.rkt', 
+              'notes'       : 'tail-recursion-worklist-acc.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '257'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'worklist-acc-2',
+              'title'       : 'Worklist Accumulators - Part 2',
+              'description' : '<p>Part 2 provides our solution to the HtDD problem and starts an HtDF problem that will run through parts 2-7.</p>',
+              'length'      : '2:45',
+              'starterFile' : 'same-house-as-parent-v2.rkt', 
+              'notes'       : 'tail-recursion-worklist-acc.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '259'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'worklist-acc-3',
+              'title'       : 'Worklist Accumulators - Part 3',
+              'description' : '<p>Part 3 works through our solution to the HtDF problem using a context preserving accumulator.</p>',
+              'length'      : '13:26',
+              'starterFile' : 'same-house-as-parent-v3.rkt', 
+              'notes'       : 'tail-recursion-worklist-acc.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '261'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'worklist-acc-4',
+              'title'       : 'Worklist Accumulators - Part 4',
+              'description' : '<p>Part 4 sets up a second problem, to count the number of wizards in a family tree. It also develops an initial solution, but that solution fails to be fully tail recursive. Worse yet it does not seem to work. </p>',
+              'length'      : '9:24',
+              'starterFile' : 'same-house-as-parent-v4.rkt', 
+              'notes'       : 'tail-recursion-worklist-acc.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '263'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'worklist-acc-5',
+              'title'       : 'Worklist Accumulators - Part 5',
+              'description' : '<p>Part 5 shows how to use a worklist accumulator to make a function operating on an arbitrary-arity tree tail recursive. The key is to use a single worklist to hold the children that have not yet been visited.</p>',
+              'length'      : '11:05',
+              'starterFile' : 'same-house-as-parent-v5.rkt', 
+              'notes'       : 'tail-recursion-worklist-acc.rkt',
+              'inVideoQs'   : false,
+              'videoNum'    : '265'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'worklist-acc-6',
+              'title'       : 'Worklist Accumulators - Part 6',
+              'description' : '<p>Part 6 begins to make the same-house-as-parent function tail recursive by carefully planning out the accumulators.</p>',
+              'length'      : '9:30',
+              'starterFile' : 'same-house-as-parent-v6.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '267'
+          },
+
+	  {
+              'module'      : 'Accumulators',
+	      'label'       :  'worklist-acc-7',
+              'title'       : 'Worklist Accumulators - Part 7',
+              'description' : '<p>Part 7 completes the coding from the careful plan for the accumulator progression. This code would have been difficult or impossible to write without following a systematic method that highlights how the different aspects of the solution come together: structural recursion, result so far accumulator, worklist accumulator, compound worklist entries, filtering behavior, and details of this particular function.</p>',
+              'length'      : '16:32',
+              'starterFile' : 'same-house-as-parent-v7.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '269'
+          },
+          
+          // Graphs
+          {
+              'module'      : 'Graphs',
+	      'label'       :  'graphs-intro',
+              'title'       : 'Introduction',
+              'description' : '<p>This video introduces graphs and their key properties to identify when domain information can be represented using graphs.</p>',
+              'length'      : '4:13',
+              'starterFile' : '', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '271'
+          },
+          {
+              'module'      : 'Graphs',
+	      'label'       :  'graphs-cyclic-data-1',
+              'title'       : 'Constructing Cyclic Data Part 1',
+              'description' : '<p>This video walks through the design of a data definition for representing graphs.</p>',
+              'length'      : '8:02',
+              'starterFile' : 'graphs-v2.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '273'
+          },
+          {
+              'module'      : 'Graphs',
+	      'label'       :  'graphs-cyclic-data-2',
+              'title'       : 'Constructing Cyclic Data Part 2',
+              'description' : '<p>Part 2 walks through creating examples of cyclic graphs using an ASL construct called shared.</p>',
+              'length'      : '7:56',
+              'starterFile' : 'graphs-v2.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '275'
+          },
+          {
+              'module'      : 'Graphs',
+	      'label'       :  'graphs-templating',
+              'title'       : 'Templating',
+              'description' : '<p>This video works through creating a template for the Room data definition using a worklist and a context-preserving accumulator.</p>',
+              'length'      : '14:11',
+              'starterFile' : 'graphs-v3.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '277'
+          },
+          {
+              'module'      : 'Graphs',
+	      'label'       :  'graphs-reachable',
+              'title'       : 'Problem - reachable?',
+              'description' : '<p>This video introduces a simple graph problem and works through the solution.</p>',
+              'length'      : '7:59',
+              'starterFile' : 'graphs-v4.rkt', 
+              'notes'       : '',
+              'inVideoQs'   : false,
+              'videoNum'    : '279'
+          }
+
+      ],
+      'problems' :
+      [                
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'exprs',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'More Arithmetic Expression',
+              'codeFiles'      : ['more-arithmetic-expression-starter.rkt',
+                                  'more-arithmetic-expression-solution.rkt'],
+              'description'    : 'Write more arithmetic expressions.',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {
+              'module'        : 'BSL',
+              'lecture'       : 'eval',
+              'kind'          : 'Practice',
+              'setNumber'     : 2,
+              'name'          : 'Primitives Evaluation',
+              'codeFiles'     : ['evaluation-prims-starter.rkt',
+                                 'evaluation-prims-solution.rkt'],
+              'description'   : 'Write out the step-by-step evaluation of expressions involving calls to primitives.',
+              'duration'      : 8,
+              'difficulty'    : 'Blue'
+          },
+          {      
+              'module'        : 'BSL',
+              'lecture'       : 'strs-imgs',
+              'kind'          : 'Practice',
+              'setNumber'     : 3,
+              'name'          : 'Tile',
+              'codeFiles'     : ['tile-starter.rkt',
+                                 'tile-solution.rkt'],
+              'description'   : 'Create an image using image composition primitives.',
+              'duration'      : 5,
+              'difficulty'    : 'Green'
+          },
+          {      
+              'module'        : 'BSL',
+              'lecture'       : 'strs-imgs',
+              'kind'          : 'Practice',
+              'setNumber'     : 4,
+              'name'          : 'Glue',
+              'codeFiles'     : ['glue-starter.rkt',
+                                 'glue-solution.rkt'],
+              'description'   : 'Write expressions to operate on strings using primitives.',
+              'duration'      : 8,
+              'difficulty'    : 'Blue'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'bools-if-exprs',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Compare Images',
+              'codeFiles'      : ['compare-images-starter.rkt',
+				  'compare-images-solution.rkt'],
+              'description'    : 'Write expressions to operate on booleans using primitives.',
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'stepper',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'More Foo Evaluation',
+              'codeFiles'      : ['more-foo-evaluation-starter.rkt',
+				  'more-foo-evaluation-solution.rkt'],
+              'description'    : 'Step by step evaluation of a call to a function that calls a number primitive in its body.',
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'stepper',
+              'kind'           : 'Practice',
+              'setNumber'      : 7,
+              'name'           : 'Even More Foo Evaluation',
+              'codeFiles'      : ['even-more-foo-evaluation-starter.rkt',
+				  'even-more-foo-evaluation-solution.rkt'],
+              'description'    : 'Step by step evaluation of a call to a function that calls a string primitive in its body.',
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'strs-imgs',
+              'kind'           : 'Practice',
+              'setNumber'      : 8,
+              'name'           : 'Canadian Flag Background',
+              'codeFiles'      : ['cflag-starter.rkt',
+				  'cflag-solution.rkt'],
+              'description'    : 'Write expression to produce background image of Canadian flag.',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'exprs',
+              'kind'           : 'Practice',
+              'setNumber'      : 9,
+              'name'           : 'Even More Arithmetic Expression',
+              'codeFiles'      : ['even-more-arithmetic-expression-starter.rkt',
+				  'even-more-arithmetic-expression-solution.rkt'],
+              'description'    : 'Write even more arithmetic expressions.',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'strs-imgs',
+              'kind'           : 'Practice',
+              'setNumber'      : 10,
+              'name'           : 'Triangles',
+              'codeFiles'      : ['triangle-starter.rkt',
+				  'triangle-solution.rkt'],
+              'description'    : 'Write an expression that operates on images using image primitives.',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'stepper',
+              'kind'           : 'Practice',
+              'setNumber'      : 11,
+              'name'           : 'Bobble Evaluation',
+              'codeFiles'      : ['bobble-evaluation-starter.rkt',
+				  'bobble-evaluation-solution.rkt'],
+              'description'    : 'Step by step evaluation of a call to a function that has an if expression in its body.',
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'strs-imgs',
+              'kind'           : 'Practice',
+              'setNumber'      : 12,
+              'name'           : 'Debug Expression',
+              'codeFiles'      : ['debug-rectangle-starter.rkt',
+				  'debug-rectangle-solution.rkt'],
+              'description'    : 'Fix the error(s) in a call to an image primitive.',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'exprs',
+              'kind'           : 'Practice',
+              'setNumber'      : 13,
+              'name'           : 'Arithmetic Expression',
+              'codeFiles'      : ['arithmetic-expression-starter.rkt',
+				  'arithmetic-expression-solution.rkt'],
+              'description'    : 'Write an arithmetic expression.',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {
+              'module'         : 'BSL',
+              'lecture'        : 'strs-imgs',
+              'kind'           : 'Practice',
+              'setNumber'      : 14,
+              'name'           : 'Overlay',
+              'codeFiles'      : ['overlay-starter.rkt',
+				  'overlay-solution.rkt'],
+              'description'    : 'Write an expression that operates on images using image primitives.',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {
+              'module'         : 'BSL',
+              'lecture'        : 'fun-def',
+              'kind'           : 'Practice',
+              'setNumber'      : 15,
+              'name'           : 'Function Writing',
+              'codeFiles'      : ['function-writing-starter.rkt',
+          'function-writing-solution.rkt'],
+              'description'    : 'Write a function that produces the larger of two given numbers.',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSL',
+              'lecture'        : 'stepper',
+              'kind'           : 'Practice',
+              'setNumber'      : 16,
+              'name'           : 'Foo Evaluation',
+              'codeFiles'      : ['foo-evaluation-starter.rkt',
+				  'foo-evaluation-solution.rkt'],
+              'description'    : 'Step by step evaluation of a call to a function that has an if expression in its body.',
+              'duration'       : 15,
+              'difficulty'     : 'Blue'
+          },
+
+          
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'yell',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Yell',
+              'codeFiles'      : ['yell-starter.rkt',
+				  'yell-solution.rkt'],
+              'description'    : 'Design a function to yell!',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'area',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'Area',
+              'codeFiles'      : ['area-starter.rkt',
+				  'area-solution.rkt'],
+              'description'    : 'Design a function to calculate the area of a square.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'img-area',
+              'kind'           : 'Lecture',
+              'setNumber'      : 3,
+              'name'           : 'Image Area',
+              'codeFiles'      : ['image-area-starter.rkt',
+				  'image-area-solution.rkt'],
+              'description'    : 'Design a function to calculate the area of an image.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'tall',
+              'kind'           : 'Lecture',
+              'setNumber'      : 4,
+              'name'           : 'Tall',
+              'codeFiles'      : ['tall-starter.rkt',
+				  'tall-solution.rkt'],
+              'description'    : 'Design a function to determine if an image is tall.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },                   {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Summon',
+              'codeFiles'      : ['summon-starter.rkt',
+				  'summon-solution.rkt'],
+              'description'    : 'Design a function to summon items.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Less Than 5',
+              'codeFiles'      : ['less-than-five-starter.rkt',
+				  'less-than-five-solution.rkt'],
+              'description'    : 'Design a function to check if length of a string is less than 5.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Boxify',
+              'codeFiles'      : ['boxify-starter.rkt',
+				  'boxify-solution.rkt'],
+              'description'    : 'Design a function to put a box around a given image.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 15,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Pluralize Stubs',
+              'codeFiles'      : ['pluralize-stubs-starter.rkt',
+				  'pluralize-stubs-solution.rkt'],
+              'description'    : 'Write more than one stub for a function given its signature and purpose.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Blue Triangle',
+              'codeFiles'      : ['blue-triangle-starter.rkt',
+				  'blue-triangle-solution.rkt'],
+              'description'    : 'Design a function to produce a blue solid triangle of a given size.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'Double Error',
+              'codeFiles'      : ['double-error-starter.rkt',
+				  'double-error-solution.rkt'],
+              'description'    : 'Fix the error(s) in a function that doubles a given number.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+          
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 7,
+              'name'           : 'Make Box',
+              'codeFiles'      : ['make-box-starter.rkt',
+				  'make-box-solution.rkt'],
+              'description'    : 'Design a function to create a square based on the given colour.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 8,
+              'name'           : 'Ensure Question',
+              'codeFiles'      : ['ensure-question-starter.rkt',
+				  'ensure-question-solution.rkt'],
+              'description'    : 'Design a function to produce a question by adding "?" to the end of a given string.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 10,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'HtDF',
+              'lecture'        : 'full',
+              'kind'           : 'Practice',
+              'setNumber'      : 9,
+              'name'           : 'Cartesian',
+              'codeFiles'      : ['cartesian-starter.rkt',
+				  'cartesian-solution.rkt'],
+              'description'    : 'Design a function to calculate the distance between two points.',
+              'recipe'         : 'HtDF(Atomic)',
+              'duration'       : 20,
+              'difficulty'     : 'Black'
+          },
+          
+          
+          
+          
+          
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'atomic',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'City name',
+              'codeFiles'      : ['city-name-starter.rkt',
+				  'city-name-solution.rkt'],
+              'description'    : 'Design a data definition for all the citys in the world.',
+              'recipe'         : 'HtDD',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'atomic-htdf',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'Best',
+              'codeFiles'      : ['best-starter.rkt',
+				  'best-solution.rkt'],
+              'description'    : 'Given the data definition for City, design a function that checks if a given city is the best city in the world.',
+              'recipe'         : 'HtDF',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'interv',
+              'kind'           : 'Lecture',
+              'setNumber'      : 3,
+              'name'           : 'Seat number',
+              'codeFiles'      : ['seat-num-starter.rkt',
+				  'seat-num-solution.rkt'],
+              'description'    : 'Design a data definition for seat numbers in a theatre.',
+              'recipe'         : 'HtDD',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'enum',
+              'kind'           : 'Lecture',
+              'setNumber'      : 4,
+              'name'           : 'Letter grade',
+              'codeFiles'      : ['letter-grade-starter.rkt',
+				  'letter-grade-solution.rkt'],
+              'description'    : 'Design a data definition to represent a student\'s grade.',
+              'recipe'         : 'HtDD',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'itemz',
+              'kind'           : 'Lecture',
+              'setNumber'      : 5,
+              'name'           : 'Countdown',
+              'codeFiles'      : ['countdown-starter.rkt',
+				  'countdown-solution.rkt'],
+              'description'    : 'Design a data definition to represent the current state of a New Year\'s Eve countdown.',
+              'recipe'         : 'HtDD',
+              'duration'       : 18,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'interv-htdf',
+              'kind'           : 'Lecture',
+              'setNumber'      : 6,
+              'name'           : 'Aisle',
+              'codeFiles'      : ['aisle-starter.rkt',
+				  'aisle-solution.rkt'],
+              'description'    : 'Given the data definition for SeatNum, design a function that determines if the seat number is on the aisle.',
+              'recipe'         : 'HtDF',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'enum-htdf',
+              'kind'           : 'Lecture',
+              'setNumber'      : 7,
+              'name'           : 'Bump up',
+              'codeFiles'      : ['bump-up-starter.rkt',
+				  'bump-up-solution.rkt'],
+              'description'    : 'Given the data definition for LetterGrade, design a function that produces the next highest grade.',
+              'recipe'         : 'HtDF',
+              'duration'       : 10,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'itemz-htdf',
+              'kind'           : 'Lecture',
+              'setNumber'      : 8,
+              'name'           : 'Countdown to display',
+              'codeFiles'      : ['countdown-to-display-starter.rkt',
+				  'countdown-to-display-solution.rkt'],
+              'description'    : 'Given the data definition for Countdown, design a function that produces an image of the current state.',
+              'recipe'         : 'HtDF',
+              'duration'       : 15,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'interv-htdf',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Employees',
+              'codeFiles'      : ['employees-starter.rkt',
+				  'employees-solution.rkt'],
+              'description'    : 'Design a data definition and a function for a program to track a ski lodge\'s payroll.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'enum-htdf',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Demolish',
+              'codeFiles'      : ['demolish-starter.rkt',
+				  'demolish-solution.rkt'],
+              'description'    : 'Design a data definition and a function for a program to classify buildings in downtown Vancouver.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'itemz-htdf',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Rocket',
+              'codeFiles'      : ['rocket-starter.rkt',
+				  'rocket-solution.rkt'],
+              'description'    : 'Design a data definition and a function for a program to track a rocket\'s return to Earth.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'enum',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'LetterGrade Error',
+              'codeFiles'      : ['letter-grade-error-starter.rkt',
+				  'letter-grade-error-solution.rkt'],
+              'description'    : 'Fix error(s) in the revised data definition for LetterGrade.',
+              'recipe'         : 'HtDD',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'interv',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Style Rules',
+              'codeFiles'      : ['style-rules-starter.rkt',
+				  'style-rules-solution.rkt'],
+              'description'    : 'Discuss the importance of following style rules and fix a given data definition to follow them.',
+              'recipe'         : 'HtDD',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'enum-htdf',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'Bike Route',
+              'codeFiles'      : ['bike-route-starter.rkt',
+				  'bike-route-solution.rkt'],
+              'description'    : 'Design a data definition and a function to determine whether a bike route is exclusively designated for bicycles.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Blue'
+          },
+      //     {      
+      //         'module'         : 'HtDD',
+      //         'lecture'        : 'enum-htdf, interv-htdf',
+      //         'kind'           : 'Practice',
+      //         'setNumber'      : 7,
+      //         'name'           : 'Steepness',
+      //         'codeFiles'      : ['steepness-starter.rkt',
+				  // 'steepness-solution.rkt'],
+      //         'description'    : 'Design two data definitions and a function to determine the steepness rating of a hill grade.',
+      //         'recipe'         : ['HtDD', 'HtDF'],
+      //         'duration'       : 35,
+      //         'difficulty'     : 'Black'
+      //     },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'itemz-htdf',
+              'kind'           : 'Practice',
+              'setNumber'      : 7,
+              'name'           : 'Rocket Error',
+              'codeFiles'      : ['rocket-error-starter.rkt',
+				  'rocket-error-solution.rkt'],
+              'description'    : 'Fix the error(s) in a function we have developed for the Rocket program.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+      //     {      
+      //         'module'         : 'HtDD',
+      //         'lecture'        : 'itemz',
+      //         'kind'           : 'Practice',
+      //         'setNumber'      : 9,
+      //         'name'           : 'Breakfast',
+      //         'codeFiles'      : ['breakfast-starter.rkt',
+				  // 'breakfast-solution.rkt'],
+      //         'description'    : 'Design two data definitions and a function for a program to perfectly heat oatmeal.',
+      //         'recipe'         : ['HtDD', 'HtDF'],
+      //         'duration'       : 35,
+      //         'difficulty'     : 'Black'
+      //     },           
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'enum-htdf',
+              'kind'           : 'Practice',
+              'setNumber'      : 8,
+              'name'           : 'Direction',
+              'codeFiles'      : ['direction-starter.rkt',
+				  'direction-solution.rkt'],
+              'description'    : 'Design a function based on a given data definition for compass directions.',
+              'recipe'         : 'HtDD',
+              'duration'       : 8,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDD',
+              'lecture'        : 'itemz-htdf',
+              'kind'           : 'Practice',
+              'setNumber'      : 9,
+              'name'           : 'Dinner',
+              'codeFiles'      : ['dinner-starter.rkt',
+				  'dinner-solution.rkt'],
+              'description'    : 'Design a data definition to represent airline dinners, and a function to let flight attendants know a passenger\'s choice.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 18,
+              'difficulty'     : 'Blue'
+          },
+          
+          
+          
+          
+          
+          {      
+              'module'         : 'HtDW',
+              'lecture'        : 'da, main, wish-list',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Cat',
+              'codeFiles'      : ['cat-starter.rkt',
+				  'cat-v3.rkt'],
+              'description'    : 'A cat that moves across the screen.',
+              'recipe'         : 'HtDW(Atomic)',
+              'duration'       : 40,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'HtDW',
+              'lecture'        : 'add-key',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'Add mouse-handler to cat',
+              'codeFiles'      : ['add-mouse-handler-starter.rkt',
+				  'cat-v4.rkt'],
+              'description'    : 'Given an existing world program, add a mouse handler to reset the position of the moving cat.',
+              'recipe'         : 'HtDW(Atomic)',
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'HtDW',
+              'lecture'        : 'da, main, wish-list',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Countdown Animation',
+              'codeFiles'      : ['countdown-animation-starter.rkt',
+          'countdown-animation-solution.rkt'],
+              'description'    : 'Design an animation of a countdown.',
+              'recipe'         : 'HtDW(Interval)',
+              'duration'       : 30,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'HtDW',
+              'lecture'        : 'da, main, wish-list',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Traffic Light Animation',
+              'codeFiles'      : ['traffic-light-starter.rkt',
+				  'traffic-light-solution.rkt'],
+              'description'    : 'Design an animation of a traffic light.',
+              'recipe'         : 'HtDW(Enumeration)',
+              'duration'       : 50,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'htdw',
+              'kind'           : 'Lecture',
+              'setNumber'      : 3,
+              'name'           : 'Cowabunga',
+              'codeFiles'      : ['cowabunga-starter.rkt',
+				  'cowabunga-v0.rkt', 'cowabunga-v1.rkt', 'cowabunga-v2.rkt', 'cowabunga-v3.rkt', 'cowabunga-v4.rkt', 'cowabunga-v5.rkt', 'cowabunga-v6.rkt'],
+              'description'    : 'A cow that wanders back and forth across the screen.',
+              'recipe'         : 'HtDW(Compound)',
+              'duration'       : 120,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'dd',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Movie',
+              'codeFiles'      : ['movie-starter.rkt',
+				  'movie-solution.rkt'],
+              'description'    : 'Design a compound data definition to represent movies, and a function to compare their release dates.',
+              'recipe'         : ['HtDD(Compound)', 'HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'htdw',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Spinning',
+              'codeFiles'      : ['spinning-starter.rkt',
+				  'spinning-solution.rkt'],
+              'description'    : 'Design a world to represent a growing and rotating red box.',
+              'recipe'         : 'HtDW(Compound)',
+              'duration'       : 80,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'dd',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Student',
+              'codeFiles'      : ['student-starter.rkt',
+				  'student-solution.rkt'],
+              'description'    : 'Design a compound data definition to represent students, and a function to monitor their allergies.',
+              'recipe'         : ['HtDD(Compound)', 'HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'dd',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Trip',
+              'codeFiles'      : ['trip-starter.rkt',
+				  'trip-solution.rkt'],
+              'description'    : 'Design a compound data definition to represent trips, and a function to compare their lengths.',
+              'recipe'         : ['HtDD(Compound)', 'HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'htdw',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Growing Grass',
+              'codeFiles'      : ['growing-grass-starter.rkt',
+				  'growing-grass-solution.rkt'],
+              'description'    : 'Design a world to represent grass that grows and is replanted.',
+              'recipe'         : 'HtDW(Compound)',
+              'duration'       : 80,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'htdw',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'Mouse Tracker',
+              'codeFiles'      : ['tracker-starter.rkt',
+				  'tracker-solution.rkt'],
+              'description'    : 'Design a world where the mouse position is displayed at the mouse cursor.',
+              'recipe'         : 'HtDW(Compound)',
+              'duration'       : 50,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'htdw',
+              'kind'           : 'Practice',
+              'setNumber'      : 7,
+              'name'           : 'Rolling Lambda',
+              'codeFiles'      : ['rolling-lambda-starter.rkt',
+				  'rolling-lambda-solution.rkt'],
+              'description'    : 'Design a world where a lambda rolls back and forth across the screen.',
+              'recipe'         : 'HtDW(Compound)',
+              'duration'       : 100,
+              'difficulty'     : 'Black'
+          },        
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'dd',
+              'kind'           : 'Practice',
+              'setNumber'      : 8,
+              'name'           : 'Compound Evaluation Starter',
+              'codeFiles'      : ['compound-evaluation-starter.rkt',
+				  'compound-evaluation-solution.rkt'],
+              'description'    : 'Write down the evaluation steps for an expression that has compound data.',
+              'recipe'         : 'HtD(Compound)',
+              'duration'       : 5,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Compound',
+              'lecture'        : 'htdw',
+              'kind'           : 'Practice',
+              'setNumber'      : 9,
+              'name'           : 'Water Balloon',
+              'codeFiles'      : ['water-balloon-starter.rkt',
+				  'water-balloon-solution.rkt'],
+              'description'    : 'Design an animation of throwing a water balloon.',
+              'recipe'         : 'HtDW(Compound)',
+              'duration'       : 90,
+              'difficulty'     : 'Black'
+          },                
+          {      
+              'module'         : 'Self-Ref',
+              'lecture'        : 'list-fun',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Total String Length',
+              'codeFiles'      : ['total-string-length-starter.rkt',
+				  'total-string-length-solution.rkt'],
+              'description'    : 'Design a function to calculate the total number of individual characters in a list of strings.',
+              'recipe'         : 'HtDF',
+              'duration'       : 18,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Self-Ref',
+              'lecture'        : 'des-w-list',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Double All',
+              'codeFiles'      : ['double-all-starter.rkt',
+				  'double-all-solution.rkt'],
+              'description'    : 'Design a function to double every number in a list.',
+              'recipe'         : 'HtDF',
+              'duration'       : 18,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Self-Ref',
+              'lecture'        : 'des-w-list',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Boolean List',
+              'codeFiles'      : ['boolean-list-starter.rkt',
+				  'boolean-list-solution.rkt'],
+              'description'    : 'Design a data definition to represent a list of booleans, and a function to determine if all values in a given list are true.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 35,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Self-Ref',
+              'lecture'        : 'list-fun',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Yell All',
+              'codeFiles'      : ['yell-all-starter.rkt',
+				  'yell-all-solution.rkt'],
+              'description'    : 'Design a function to add \'!\' to each string in a list of strings.',
+              'recipe'         : 'HtDF',
+              'duration'       : 18,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Self-Ref',
+              'lecture'        : 'des-w-list',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Largest',
+              'codeFiles'      : ['largest-starter.rkt',
+				  'largest-solution.rkt'],
+              'description'    : 'Design a function to find the largest number in a list of numbers.',
+              'recipe'         : 'HtDF',
+              'duration'       : 18,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Self-Ref',
+              'lecture'        : 'des-w-list',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'Image List',
+              'codeFiles'      : ['image-list-starter.rkt',
+				  'image-list-solution.rkt'],
+              'description'    : 'Design a data definition to represent a list of images, and a function to find the sum of areas from a list of images.',
+              'recipe'         : 'HtDF',
+              'duration'       : 35,
+              'difficulty'     : 'Blue'
+          },
+
+          {      
+              'module'         : 'Ref',
+              'lecture'        : 'part-1-2-3',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Tuition',
+              'codeFiles'      : ['tuition-graph-starter.rkt','tuition-graph-v1.rkt','tuition-graph-v2.rkt','tuition-graph-v3.rkt','tuition-graph-v4.rkt','tuition-graph-v5.rkt','tuition-graph-v6.rkt'],
+              'description'    : 'A tuition graphing program and intermediate solutions.',
+              'recipe'         : 'HtDF',
+              'duration'       : 60,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Ref',
+              'lecture'        : 'part-3',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Alternative Tuition Graph',
+              'codeFiles'      : ['alternative-tuition-graph-starter.rkt',
+				  'alternative-tuition-graph-solution.rkt'],
+              'description'    : 'Design the tuition graph bar chart function based on an alternative data definition for School.',
+              'recipe'         : ['HtDD', 'HtDF'],
+              'duration'       : 50,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Ref',
+              'lecture'        : 'part-3',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Spinning Bears',
+              'codeFiles'      : ['spinning-bears-starter.rkt',
+				  'spinning-bears-solution.rkt'],
+              'description'    : 'Design a world program that has an arbitrary number of spinning bears.',
+              'recipe'         : ['HtDD', 'HtDF', 'HtDW'],
+              'duration'       : 100,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Ref',
+              'lecture'        : 'part-3',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Tuition Graph',
+              'codeFiles'      : ['tuition-graph-c-starter.rkt',
+				  'tuition-graph-c-solution.rkt'],
+              'description'    : 'Design a function to find the lowest tuition, and a function to produce a list of school names.',
+              'recipe'         : 'HtDF',
+              'duration'       : 45,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Naturals',
+              'lecture'        : 'nat nums',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Naturals',
+              'codeFiles'      : ['naturals-starter.rkt',
+				  'naturals-solution.rkt'],
+              'description'    : 'Design functions that operate on the Natural data definition.',
+              'recipe'         : 'HtDF',
+              'duration'       : 25,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Naturals',
+              'lecture'        : 'parlor',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'New numerals',
+              'codeFiles'      : ['new-numerals-starter.rkt',
+				  'new-numerals-solution.rkt'],
+              'description'    : 'Design functions that does arithmetic operations on the NATURAL data definition.',
+              'recipe'         : 'HtDF',
+              'duration'       : 50,
+              'difficulty'     : 'Blue'
+          },
+          
+
+          {      
+               'module'         : 'Naturals',
+               'lecture'        : 'nat nums',
+               'kind'           : 'Practice',
+               'setNumber'      : 1,
+               'name'           : 'Sum to n',
+               'codeFiles'      : ['sum-to-n-starter.rkt',
+            'sum-to-n-solution.rkt'],
+               'description'    : 'Design a function that computes the sum of all natural numbers from zero to n.',
+               'recipe'         : 'HtDF',
+               'duration'       : 10,
+               'difficulty'     : 'Green'
+            },
+                 
+                 {      
+                         'module'         : 'Naturals',
+                         'lecture'        : 'nat nums',
+                         'kind'           : 'Practice',
+                         'setNumber'      : 2,
+                         'name'           : 'Decreasing Image',
+                         'codeFiles'      : ['decreasing-image-starter.rkt',
+                         'decreasing-image-solution.rkt'],
+                         'description'    : 'Design a function that produces an image of the numbers from n to zero, side by side.',
+                         'recipe'         : 'HtDF',
+                         'duration'       : 15,
+                         'difficulty'     : 'Blue'
+                 },
+
+                 {      
+                         'module'         : 'Naturals',
+                         'lecture'        : 'nat nums',
+                         'kind'           : 'Practice',
+                         'setNumber'      : 3,
+                         'name'           : 'Odd from n',
+                         'codeFiles'      : ['odd-from-n-starter.rkt',
+                         'odd-from-n-solution.rkt'],
+                         'description'    : 'Design a function that produces a list of all the odd numbers from n to zero.',
+                         'recipe'         : 'HtDF',
+                         'duration'       : 15,
+                         'difficulty'     : 'Blue'
+                 },
+                 
+                 {      
+                         'module'         : 'Naturals',
+                         'lecture'        : 'nat nums',
+                         'kind'           : 'Practice',
+                         'setNumber'      : 4,
+                         'name'           : 'Concentric Circles',
+                         'codeFiles'      : ['concentric-circles-starter.rkt',
+                         'concentric-circles-solution.rkt'],
+                         'description'    : 'Design a function that produces an image of n concentric circles of a given colour.',
+                         'recipe'         : 'HtDF',
+                         'duration'       : 15,
+                         'difficulty'     : 'Blue'
+                 },
+          
+          {      
+              'module'         : 'Helpers',
+              'lecture'        : 'all',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Arrange Images',
+              'codeFiles'      : ['arrange-images-starter.rkt',
+				  'arrange-images-v1.rkt','arrange-images-v2.rkt','arrange-images-v3.rkt', 'arrange-images-v4.rkt','arrange-images-v5.rkt','arrange-images-v6.rkt'],
+              'description'    : 'Creating a program to sort a list of images and lay them out next to each other, as demonstrated in lecture, with all intermediate solutions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 60,
+              'difficulty'     : 'Blue'
+          },   
+          {      
+              'module'         : 'Helpers',
+              'lecture'        : 'all',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Render Roster',
+              'codeFiles'      : ['render-roster-starter.rkt',
+				  'render-roster-solution.rkt'],
+              'description'    : 'Design a program to render a dodgeball game roster.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 100,
+              'difficulty'     : 'Blue'
+          },              
+          {      
+              'module'         : 'Helpers',
+              'lecture'        : 'all',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Making Rain Filtered',
+              'codeFiles'      : ['making-rain-filtered-starter.rkt',
+				  'making-rain-filtered-solution.rkt'],
+              'description'    : 'Design a world program to make it rain where you want it to. In this version of the program you should remove drops that have already fallen off the screen from the world state. Be sure to use all appropriate helper function rules. There are a total of 9 functions in our solution, so this problem takes some time.',
+              'recipe'         : ['HtDW'],
+              'duration'       : 120,
+              'difficulty'     : 'Blue'
+          },
+
+          //BSTs
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'loa',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Lookup in List',
+              'codeFiles'      : ['lookup-in-list-starter.rkt',
+				  'lookup-in-list-solution.rkt'],
+              'description'    : 'Creating a program to find an account in a list of account given its account number.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          }, 
+
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'dd',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'BST Data Definition',
+              'codeFiles'      : ['bst-dd-starter.rkt',
+				  'bst-dd-solution.rkt'],
+              'description'    : 'Creating a data definition for a Binary Search Tree.',
+              'recipe'         : ['HtDD'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          }, 
+
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'lookup',
+              'kind'           : 'Lecture',
+              'setNumber'      : 3,
+              'name'           : 'Lookup in BST',
+              'codeFiles'      : ['lookup-in-bst-starter.rkt',
+				  'lookup-in-bst-solution.rkt'],
+              'description'    : 'Creating a function that searches through a BST.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'render',
+              'kind'           : 'Lecture',
+              'setNumber'      : 4,
+              'name'           : 'Render BST',
+              'codeFiles'      : ['render-bst-starter.rkt',
+				  'render-bst-solution.rkt'],
+              'description'    : 'Creating a function that renders a BST',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'lookup',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Count Nodes',
+              'codeFiles'      : ['count-nodes-starter.rkt',
+				  'count-nodes-solution.rkt'],
+              'description'    : 'Design a function to count the number of nodes in a BST.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'lookup',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Sum Keys',
+              'codeFiles'      : ['sum-keys-starter.rkt',
+				  'sum-keys-solution.rkt'],
+              'description'    : 'Design a function that sums the keys in a BST.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 7,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'lookup',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Height',
+              'codeFiles'      : ['height-starter.rkt',
+				  'height-solution.rkt'],
+              'description'    : 'Design a function to determine the height of a BST.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'lookup',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Insert',
+              'codeFiles'      : ['insert-starter.rkt',
+				  'insert-solution.rkt'],
+              'description'    : 'Design a function that inserts a node in the proper place in a BST.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'lookup',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Balance Factor ',
+              'codeFiles'      : ['balance-factor-starter.rkt',
+				  'balance-factor-solution.rkt'],
+              'description'    : 'Design functions to determine whether a BST is balanced. ',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'BSTs',
+              'lecture'        : 'render',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'Render BST with Lines',
+              'codeFiles'      : ['render-bst-w-lines-starter.rkt',
+				  'render-bst-w-lines-solution.rkt'],
+              'description'    : 'Design a function that renders a BST with lines.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 45,
+              'difficulty'     : 'Black'
+          },
+          
+          {      
+              'module'         : 'Mutual-Ref',
+              'lecture'        : 'all',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'File System',
+              'codeFiles'      : ['fs-starter.rkt',
+				  'fs-v1.rkt','fs-v2.rkt','fs-v3.rkt','fs-v4.rkt'],
+              'description'    : 'An implementation of a file system, as demonstrated in lecture, with all intermediate solutions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 60,
+              'difficulty'     : 'Black'
+          },
+
+          
+          {      
+              'module'         : 'Mutual-Ref',
+              'lecture'        : 'fun-part-2',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Image Organizer',
+              'codeFiles'      : ['image-organizer-starter.rkt',
+				  'image-organizer-solution.rkt'],
+              'description'    : 'Several function design problems for arbitrary-arity trees.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 90,
+              'difficulty'     : 'Blue'
+          },
+
+          {      
+              'module'         : 'Mutual-Ref',
+              'lecture'        : 'fun-part-2',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Find Person',
+              'codeFiles'      : ['find-person-starter.rkt',
+				  'find-person-solution.rkt'],
+              'description'    : 'Design a function to find a person in a person tree.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Mutual-Ref',
+              'lecture'        : 'fun-part-2',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Harry Potter Family Tree',
+              'codeFiles'      : ['hp-family-tree-starter.rkt',
+				  'hp-family-tree-solution.rkt'],
+              'description'    : 'Represent information about descendant family trees from Harry Potter and design functions that operate on them.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 90,
+              'difficulty'     : 'Blue'
+          },
+          
+          // 2-One-Of
+          {      
+              'module'         : '2-One-Of',
+              'lecture'        : 'code',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Concat',
+              'codeFiles'      : ['concat-starter.rkt',
+				  'concat-solution.rkt'],
+              'description'    : 'Design a function that concatenates two lists.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : '2-One-Of',
+              'lecture'        : 'code',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Merge',
+              'codeFiles'      : ['merge-starter.rkt',
+				  'merge-solution.rkt'],
+              'description'    : 'Design a function that merges two sorted lists into a single sorted list.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 35,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : '2-One-Of',
+              'lecture'        : 'code',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Zip',
+              'codeFiles'      : ['zip-starter.rkt',
+				  'zip-solution.rkt'],
+              'description'    : 'Design a function that produces a list of the corresponding elements of the given two lists.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : '2-One-Of',
+              'lecture'        : 'code',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Pattern Match',
+              'codeFiles'      : ['pattern-match-starter.rkt',
+				  'pattern-match-solution.rkt'],
+              'description'    : 'Design a function that determines if a sequence of characters matches a given pattern.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 40,
+              'difficulty'     : 'Blue'
+          },   
+          {      
+              'module'         : '2-One-Of',
+              'lecture'        : 'code',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Championship Bracket',
+              'codeFiles'      : ['championship-bracket-starter.rkt',
+				  'championship-bracket-solution.rkt'],
+              'description'    : 'Represent and operate on information about USA Ultimate championship bracket.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 40,
+              'difficulty'     : 'Blue'
+          },
+          
+          {      
+              'module'         : 'Local',
+              'lecture'        : 'encap, recomp',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'File System 2',
+              'codeFiles'      : ['fs-v4.rkt','fs-v5.rkt',
+				  'fs-v6.rkt','fs-v7.rkt'],
+              'description'    : 'Refactoring of file system developed in Mutual-Ref.',
+              'recipe'         : 'HtDF',
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Local',
+              'lecture'        : 'eval',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Evaluate boo',
+              'codeFiles'      : ['evaluate-boo-starter.rkt',
+				  'evaluate-boo-solution.rkt'],
+              'description'    : 'Step by step evaluation of a call to a function that involves local.',
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Local',
+              'lecture'        : 'avoid-recomp',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Faster Render BST with Lines',
+              'codeFiles'      : ['render-bst-w-lines-faster-starter.rkt',
+				  'render-bst-w-lines-faster-solution.rkt'],
+              'description'    : 'Improve the performance of a function that produces a simple rendering of a bst with lines.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          
+	  {      
+              'module'         : 'Local',
+              'lecture'        : 'eval',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Evaluate foo',
+              'codeFiles'      : ['evaluate-foo-starter.rkt',
+				  'evaluate-foo-solution.rkt'],
+              'description'    : 'Step by step evaluation of a call to a function that involves local.',
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Local',
+              'lecture'        : 'encap',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Encapsulate total area',
+              'codeFiles'      : ['encapsulate-total-area-starter.rkt',
+				  'encapsulate-total-area-solution.rkt'],
+              'description'    : 'Encapsulate the total-area function into local.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Local',
+              'lecture'        : 'encap, avoid-recomp',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Championship Bracket Improved',
+              'codeFiles'      : ['championship-bracket-improved-starter.rkt',
+				  'championship-bracket-improved-solution.rkt'],
+              'description'    : 'Improve a function that determines which team knocked a given team out of the tournament.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+
+
+
+
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'from-ex',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Parameterization',
+              'codeFiles'      : ['parameterization-starter.rkt',
+				  'parameterization-v2.rkt','parameterization-v3.rkt'],
+              'description'    : 'Introduction to abstracting functions, as demonstrated in lecture, with intermediate solutions.',
+              'recipe'         : 'HtDF',
+              'duration'       : 45,
+              'difficulty'     : 'Blue'
+          },
+          
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'built-in',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'Using built ins',
+              'codeFiles'      : ['using-built-ins-starter.rkt',
+				  'using-built-ins-solution.rkt'],
+              'description'    : 'Design functions that use built-in abstract list functions.',
+              'recipe'         : 'HtDF',
+              'duration'       : 25,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'closures',
+              'kind'           : 'Lecture',
+              'setNumber'      : 3,
+              'name'           : 'Closures',
+              'codeFiles'      : ['closures-starter.rkt',
+				  'closures-solution.rkt'],
+              'description'    : 'Design functions that use built-in abstract list functions with closure.',
+              'recipe'         : 'HtDF',
+              'duration'       : 35,
+              'difficulty'     : 'Blue'
+          },
+
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'built-in',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Wide only',
+              'codeFiles'      : ['wide-only-starter.rkt',
+				  'wide-only-solution.rkt'],
+              'description'    : 'Design a function to produce only wide images from a list of images.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'built-in',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Photos',
+              'codeFiles'      : ['photos-starter.rkt',
+				  'photos-solution.rkt'],
+              'description'    : 'Design a function to produce all the favourited photos in the given album.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'from-ex-3',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Abstract sum',
+              'codeFiles'      : ['abstract-sum-starter.rkt',
+				  'abstract-sum-solution.rkt'],
+              'description'    : 'Design an abstract function to simplify the sum-of functions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'from-ex-3',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Abstract some',
+              'codeFiles'      : ['abstract-some-starter.rkt',
+				  'abstract-some-solution.rkt'],
+              'description'    : 'Design an abstract function to simplify the some functions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 40,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'built-in',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Ellipses',
+              'codeFiles'      : ['ellipses-starter.rkt',
+				  'ellipses-solution.rkt'],
+              'description'    : 'Write expressions that uses abstract functions to produce a list of ellipses and images of ellipses.',
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'built-in',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'Bag',
+              'codeFiles'      : ['bag-starter.rkt',
+				  'bag-solution.rkt'],
+              'description'    : 'Design a function to produce the linear lengths of a list of bags.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'built-in',
+              'kind'           : 'Practice',
+              'setNumber'      : 7,
+              'name'           : 'Sum n',
+              'codeFiles'      : ['sum-n-starter.rkt',
+				  'sum-n-solution.rkt'],
+              'description'    : 'Design a function to produce the sum of the first n odd numbers.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 25,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'fold',
+              'kind'           : 'Practice',
+              'setNumber'      : 8,
+              'name'           : 'Fold dir',
+              'codeFiles'      : ['fold-dir-starter.rkt',
+				  'fold-dir-solution.rkt'],
+              'description'    : 'Design an abstract fold function for Dir and some functions that uses this abstract function.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 60,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'from-ex-3',
+              'kind'           : 'Practice',
+              'setNumber'      : 9,
+              'name'           : 'Accounts',
+              'codeFiles'      : ['accounts-starter.rkt',
+				  'accounts-solution.rkt'],
+              'description'    : 'Design abstract functions to simplify given functions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 45,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Abstraction',
+              'lecture'        : 'built-in',
+              'kind'           : 'Practice',
+              'setNumber'      : 10,
+              'name'           : 'Weather',
+              'codeFiles'      : ['weather-starter.rkt','weather.ss',
+				  'weather-solution.rkt'],
+              'description'    : 'Use built-in abstract functions to design a function that produces the sum total of rainfall on warm days.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Blue'
+          },
+          
+          
+          
+          
+          {      
+              'module'         : 'Genrec',
+              'lecture'        : 'fractals',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Fractals',
+              'codeFiles'      : ['fractals-starter.rkt',
+				  'fractals-v1.rkt','fractals-v2.rkt'],
+              'description'    : 'Design of a few basic fractals, as demonstrated in lecture, with intermediate solutions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 30,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Genrec',
+              'lecture'        : 'term-arg',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'Termination',
+              'codeFiles'      : ['termination-starter.rkt',
+				  'termination-solution.rkt'],
+              'description'    : 'Design three part termination argument for generative recursions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 45,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Genrec',
+              'lecture'        : 'term-arg',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Circle Fractal',
+              'codeFiles'      : ['circle-fractal-starter.rkt',
+				  'circle-fractal-solution.rkt'],
+              'description'    : 'Design a function to draw a circle fractal.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 90,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Genrec',
+              'lecture'        : 'term-arg',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Van Koch',
+              'codeFiles'      : ['van-koch-starter.rkt',
+				  'van-koch-solution.rkt'],
+              'description'    : 'Design a function to draw a Van Koch fractal line. The GEOMETRY of this problem is much more difficult than the triangle and the carpet. If you feel confident with cartesian geometry then this function may not be too difficult. If you feel less confident then you may find this problem to be too difficult.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 110,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Genrec',
+              'lecture'        : 'term-arg',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Cantor',
+              'codeFiles'      : ['cantor-starter.rkt',
+				  'cantor-solution.rkt'],
+              'description'    : 'Design a world program to create the cantor set.',
+              'recipe'         : ['HtDW'],
+              'duration'       : 90,
+              'difficulty'     : 'Blue'
+          },
+
+          {      
+              'module'         : 'Search',
+              'lecture'        : 'sudoku',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Sudoku',
+              'codeFiles'      : ['sudoku-starter.rkt','sudoku-v1.rkt','sudoku-v2.rkt','sudoku-v3.rkt', 'sudoku-v4.rkt','sudoku-solution.rkt'],
+              'description'    : 'Design a program that solves a sudoku board, as demonstrated in lecture, with intermediate solutions.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 180,
+              'difficulty'     : 'Black'
+          },
+          
+          // Accumulators
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'context-preserv-acc',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'Drop N',
+              'codeFiles'      : ['dropn-starter.rkt',
+				  'dropn-solution.rkt'],
+              'description'    : 'Design a function that drops every nth element from a list.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'context-preserv-acc',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Replicate Element',
+              'codeFiles'      : ['replicate-elm-starter.rkt',
+				  'replicate-elm-solution.rkt'],
+              'description'    : 'Design a function that replicates elements in a list.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'context-preserv-acc',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Strictly Decreasing',
+              'codeFiles'      : ['strictly-decreasing-starter.rkt',
+				  'strictly-decreasing-solution.rkt'],
+              'description'    : 'Design a function that produces true if numbers in a list are strictly decreasing.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Green'
+          },                 
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Average',
+              'codeFiles'      : ['average-tr-starter.rkt',
+				  'average-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive function that produces the average of numbers in a list.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Product',
+              'codeFiles'      : ['product-tr-starter.rkt',
+				  'product-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive version of a function that produces the product of numbers in a list.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Practice',
+              'setNumber'      : 6,
+              'name'           : 'Sum N',
+              'codeFiles'      : ['sum-n-tr-starter.rkt',
+				  'sum-n-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive version of a function that produces the sum of naturals in [0, n].',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Practice',
+              'setNumber'      : 7,
+              'name'           : 'Sum Odds',
+              'codeFiles'      : ['sum-odds-tr-starter.rkt',
+				  'sum-odds-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive version of a function that produces the sum of odd numbers in a list.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Practice',
+              'setNumber'      : 8,
+              'name'           : 'To list',
+              'codeFiles'      : ['to-list-tr-starter.rkt',
+				  'to-list-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive version of a function that produces a list of naturals from 1 to n.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 15,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Practice',
+              'setNumber'      : 9,
+              'name'           : 'Count Evens and Odds',
+              'codeFiles'      : ['count-odd-even-tr-starter.rkt',
+				  'count-odd-even-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive function that produces separate counts of odd and even numbers in a list.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Practice',
+              'setNumber'      : 10,
+              'name'           : 'Reverse',
+              'codeFiles'      : ['rev-tr-starter.rkt',
+				  'rev-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive function that produces a list of the same elements in the opposite order.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'worklist-acc',
+              'kind'           : 'Practice',
+              'setNumber'      : 11,
+              'name'           : 'House Path',
+              'codeFiles'      : ['house-path-starter.rkt',
+				  'house-path-solution.rkt'],
+              'description'    : 'Design functions that operate on house paths.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 45,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'worklist-acc',
+              'kind'           : 'Practice',
+              'setNumber'      : 12,
+              'name'           : 'Contains Key',
+              'codeFiles'      : ['contains-key-tr-starter.rkt',
+				  'contains-key-tr-solution.rkt'],
+              'description'    : 'Design a tail-recursive function that determines whether a binary tree contains a given key.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 40,
+              'difficulty'     : 'Blue'
+          },
+          
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'context-preserv-acc',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Context Preserving Accumulators',
+              'codeFiles'      : ['skip1-starter.rkt','skip1-solution.rkt','skip1-v1.rkt','skipn-starter.rkt','skipn-solution.rkt','skipn-v1.rkt'],
+              'description'    : 'Problems where an accumulator is needed to preserve information lost in the structural recursion template.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 60,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'tail-rec',
+              'kind'           : 'Lecture',
+              'setNumber'      : 2,
+              'name'           : 'Tail Recursion',
+              'codeFiles'      : ['sum-tr-starter.rkt','sum-tr-solution.rkt'],
+              'description'    : 'Using accumulators to make functions tail recursive.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 50,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Accumulators',
+              'lecture'        : 'worklist-acc',
+              'kind'           : 'Lecture',
+              'setNumber'      : 3,
+              'name'           : 'Worklist Accumulators',
+              'codeFiles'      : ['same-house-as-parent-v1.rkt','same-house-as-parent-v2.rkt','same-house-as-parent-v3.rkt','same-house-as-parent-v4.rkt','same-house-as-parent-v5.rkt','same-house-as-parent-v6.rkt','same-house-as-parent-v7.rkt','same-house-as-parent-solution.rkt'],
+              'description'    : 'Making functions operating on an arbitrary-arity tree tail recursive using context preserving and worklist accumulators.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 120,
+              'difficulty'     : 'Black'
+          },
+          
+          // Graphs
+          {      
+              'module'         : 'Graphs',
+              'lecture'        : 'graphs-reachable',
+              'kind'           : 'Practice',
+              'setNumber'      : 1,
+              'name'           : 'All Reachable',
+              'codeFiles'      : ['all-reachable-starter.rkt', 'all-reachable-solution.rkt'],                         
+	      'description'    : 'Design a function that produces rooms reachable from a given room.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Graphs',
+              'lecture'        : 'graphs-reachable',
+              'kind'           : 'Practice',
+              'setNumber'      : 2,
+              'name'           : 'Count Rooms',
+              'codeFiles'      : ['count-rooms-starter.rkt', 'count-rooms-solution.rkt'],                         
+	      'description'    : 'Design a function that produces the number of rooms reachable from a given room.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Graphs',
+              'lecture'        : 'graphs-reachable',
+              'kind'           : 'Practice',
+              'setNumber'      : 3,
+              'name'           : 'Lookup Room',
+              'codeFiles'      : ['lookup-room-starter.rkt', 'lookup-room-solution.rkt'],                         
+	      'description'    : 'Design a function that produces a room with the given name.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 20,
+              'difficulty'     : 'Green'
+          },
+          {      
+              'module'         : 'Graphs',
+              'lecture'        : 'graphs-reachable',
+              'kind'           : 'Practice',
+              'setNumber'      : 4,
+              'name'           : 'Max Exits From',
+              'codeFiles'      : ['max-exits-from-starter.rkt', 'max-exits-from-solution.rkt'],                         
+	      'description'    : 'Design a function that produces the room with the most exits.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 40,
+              'difficulty'     : 'Blue'
+          },
+          {      
+              'module'         : 'Graphs',
+              'lecture'        : 'graphs-reachable',
+              'kind'           : 'Practice',
+              'setNumber'      : 5,
+              'name'           : 'Max Exits to',
+              'codeFiles'      : ['max-exits-to-starter.rkt', 'max-exits-to-solution.rkt'],                         
+	      'description'    : 'Design a function that produces a room to which the greatest number of other rooms have exits.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 60,
+              'difficulty'     : 'Black'
+          },
+          {      
+              'module'         : 'Graphs',
+              'lecture'        : 'cyclic-data, templating, reachable',
+              'kind'           : 'Lecture',
+              'setNumber'      : 1,
+              'name'           : 'Graphs',
+              'codeFiles'      : ['graphs-v1.rkt','graphs-v2.rkt','graphs-v3.rkt','graphs-v4.rkt','graphs-v5.rkt'],
+              'description'    : 'Walking through the design of a data definition for representing graphs, and a simple function that operates on those graphs.',
+              'recipe'         : ['HtDF'],
+              'duration'       : 120,
+              'difficulty'     : 'Black'
+          }
+
+          
+
+      ]};

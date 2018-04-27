@@ -1,0 +1,5 @@
+We will start to have designs with more than one data definition each for representing one
+part of the overall information.
+
+As we have seen before this difference will arise in the information, be reflected in the
+type comments, be carried into the templates by the template rules and show up in the structure of the final function definitions and tests.
